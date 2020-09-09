@@ -4,7 +4,7 @@ export const AttractionsHTML = (attractionObj) => {
     return `
         <div id="attraction--${attractionObj.id}">
             <h2>${attractionObj.name}</h2>
-            <button class="attraction--button">Details</button>
+            <button class="attraction--button" id="btn--${attractionObj.id}">Details</button>
         </div>
     `
 }
