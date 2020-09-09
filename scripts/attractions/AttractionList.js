@@ -21,20 +21,13 @@ eventHub.addEventListener("attractionChosen", event => {
     }
 })
 
-export const AttractionList = () => {
-    getAttractions()
-        .then(() => {
-            const attractionArray = useAttractions()
-            addAttractionsToDOM(attractionArray)
-        })
+const render = attractionCollection => {
+    const contentTarget = document.querySelector('.itineraryAttractionsDetails')
+    contentTarget.innerHTML = attractionCollection.map(attractionObj => {
+        return AttractionsHTML(attractionObj)
+    }).join("")
 }
 
-const addAttractionsToDOM = (theAttractionArray) => {
-    const domElement = document.querySelector('.itineraryAttractionsDetails')
-
-    let HTMLArray = theAttractionArray.map(singleAttraction => {
-        return AttractionsHTML(singleAttraction)
-    })
-
-    domElement.innerHTML += HTMLArray.join("")
+export const AttractionList = () => {
+    getAttractions()
 }
