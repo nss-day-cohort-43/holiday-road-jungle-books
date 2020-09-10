@@ -34,7 +34,6 @@ export const getPark = (parkCode) => {
     return fetch(`https://developer.nps.gov/api/v1/parks?api_key=${Settings.npsKey}&parkCode=${parkCode}`)
     .then(response => response.json())
     .then(parsedResponse => {
-        debugger;
         selectedPark = parsedResponse.data[0]
     })
 }

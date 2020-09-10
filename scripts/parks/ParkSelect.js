@@ -40,7 +40,7 @@ eventHub.addEventListener('activityChosen', event => {
                         getPark(event.target.value)
                         .then(_ => {
                             let selectedPark = usePark()
-                            debugger
+                            dispatchParkEvent(selectedPark)
                         })
                     }
                 }
