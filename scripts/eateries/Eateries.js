@@ -2,7 +2,7 @@
 
 export const EateriesHTML = (eateryObj) => {
     return `
-        <div id="eatery--${eateryObj.id}">
+        <div class="eatery--card" id="eatery--${eateryObj.id}">
             <h2>${eateryObj.businessName}</h2>
             <button class="eatery--button" id="btn--${eateryObj.id}">Details</button>
         </div>

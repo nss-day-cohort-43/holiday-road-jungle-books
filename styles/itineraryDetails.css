@@ -2,3 +2,25 @@
     display: flex;
     flex-flow: row wrap;
 }
+
+.attraction--card {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+}
+
+.attraction--card button {
+    height: 2em;
+    margin-left: 10px;
+}
+
+.eatery--card {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+}
+
+.eatery--card button {
+    height: 2em;
+    margin-left: 10px;
+}
