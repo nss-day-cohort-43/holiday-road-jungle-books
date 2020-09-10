@@ -1,0 +1,23 @@
+.itineraryWeather {
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.weatherCard {
+  margin: 0.5em;
+}
+
+.weatherImage {
+  width: 2em;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.dayParagraph,
+.tempParagraph {
+  padding: 0;
+  margin: 0;
+  margin-block-end: 0;
+  margin-block-start: 0;
+}
