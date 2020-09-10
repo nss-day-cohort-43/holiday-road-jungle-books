@@ -18,6 +18,8 @@ eventHub.addEventListener("attractionChosen", event => {
         })
 
         render(matchingAttraction)
+
+        AttractionModal()
     }
 })
 
@@ -30,4 +32,21 @@ const render = attractionCollection => {
 
 export const AttractionList = () => {
     getAttractions()
+}
+
+const AttractionModal = () => {
+    let modalBtn = document.getElementById("modal-btn")
+    let modal = document.querySelector(".modal")
+    let closeBtn = document.querySelector(".close-btn")
+    modalBtn.onclick = function () {
+        modal.style.display = "block"
+    }
+    closeBtn.onclick = function () {
+        modal.style.display = "none"
+    }
+    window.onclick = function (e) {
+        if (e.target == modal) {
+            modal.style.display = "none"
+        }
+    }
 }
