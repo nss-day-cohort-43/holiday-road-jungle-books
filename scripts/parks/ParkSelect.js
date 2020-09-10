@@ -2,7 +2,7 @@
 // once a park is selected, should display on preview with option to see details
 // when 'save' button clicked on DOM, park saves with itinerary in DataBase
 // will dispatch an event.... hopefully.
-import { dispatchParkEvent, getParks, useParks } from './ParkProvider.js'
+import { dispatchParkEvent, getParks, useParks, getPark, usePark } from './ParkProvider.js'
 
 
 
@@ -21,7 +21,6 @@ eventHub.addEventListener('activityChosen', event => {
             const stateParks = parks.filter(park => {
                 return park.states === state
             })
-            debugger;
             //render parkselect element
             let contentTarget = document.querySelector('.parkDropdownContainer')
             contentTarget.innerHTML = `
@@ -38,7 +37,11 @@ eventHub.addEventListener('activityChosen', event => {
             eventHub.addEventListener('change', event => {
                 if(event.target.classList.contains('parksDropdown')){
                     if(event.target.value !== '0'){
-                        dispatchParkEvent(event.detail.value)
+                        getPark(event.target.value)
+                        .then(_ => {
+                            let selectedPark = usePark()
+                            debugger
+                        })
                     }
                 }
             })
