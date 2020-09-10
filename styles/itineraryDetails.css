@@ -1,0 +1,4 @@
+.itineraryDetailsContainer {
+    display: flex;
+    flex-flow: row wrap;
+}
