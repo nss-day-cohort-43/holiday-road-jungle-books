@@ -6,6 +6,7 @@ import { Park } from './Parks.js'
 const eventHub = document.querySelector('.container')
 
 eventHub.addEventListener('parkSelected', event => {
+    debugger;
     var contentTarget = document.querySelector('.itineraryTitle')
     if(event.detail.hasOwnProperty('name')){
         contentTarget.innerHTML = Park(event.detail.name)

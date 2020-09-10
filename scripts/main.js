@@ -1,5 +1,7 @@
 import { ParkSelect } from './parks/ParkSelect.js'
 import { getParks, useParks } from './parks/ParkProvider.js';
-import './parks/ParkList.js'
+import { StateSelect } from './parks/states/StateSelect.js';
+import './parks/activites/ActivitySelect.js'
 
-ParkSelect();
+//ParkSelect();
+StateSelect();

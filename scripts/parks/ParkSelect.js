@@ -25,13 +25,11 @@ export const ParkSelect = () => {
         //listen for change event in select element and dispatch custom event
         eventHub.addEventListener('change', event =>{
             if(event.target.classList.contains('parkDropdown')){
-                debugger;
                 //find the park object that matches the user's pick from the select component
                 var foundPark = {};
                 foundPark = parks.find(park => {
                     return event.target.value === park.name
                 })
-                debugger;
                 dispatchParkEvent(foundPark)
                 
             }
