@@ -36,7 +36,7 @@ export const AttractionList = () => {
 
 const AttractionModal = () => {
 
-    let modalBtn = document.getElementById("modal-btn")
+    let modalBtn = document.getElementById("attraction-modal-btn")
     let modal = document.querySelector(".modal")
     let closeBtn = document.querySelector(".close-btn")
 

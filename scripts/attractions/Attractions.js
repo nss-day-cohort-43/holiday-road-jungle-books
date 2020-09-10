@@ -20,7 +20,7 @@ export const AttractionsHTML = (attractionObj) => {
     return `
         <div class="attraction--card" id="attraction--${attractionObj.id}">
             <h2>${attractionObj.name}</h2>
-            <button class="attraction--button" id="modal-btn">Details</button>
+            <button class="attraction--button" id="attraction-modal-btn">Details</button>
         </div>
 
         <div class="modal" id="attraction-info--${attractionObj.id}">
@@ -30,7 +30,10 @@ export const AttractionsHTML = (attractionObj) => {
                 <h4>${attractionObj.name}</h4>
                 <p><strong>Location:</strong> ${attractionObj.city}, ${attractionObj.state}</p>
                 <p>${attractionObj.description}</p>
-                <p><strong>Souvenirs?</strong> ${souvenirsAvailable} | <strong>Restrooms?</strong> ${restroomsAvailable}</p>
+                <div class="yesNoContainer">
+                    <span><strong>Souvenirs?</strong> ${souvenirsAvailable}
+                    <span><strong>Restrooms?</strong> ${restroomsAvailable}</span>
+                </div>
             </div>
         </div>
     `

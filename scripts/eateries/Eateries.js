@@ -48,7 +48,7 @@ export const EateriesHTML = (eateryObj) => {
     return `
         <div class="attraction--card" id="attraction--${eateryObj.id}">
             <h2>${eateryObj.businessName}</h2>
-            <button class="attraction--button" id="modal-btn">Details</button>
+            <button class="attraction--button" id="eateries-modal-btn">Details</button>
         </div>
 
         <div class="modal" id="attraction-info--${eateryObj.id}">

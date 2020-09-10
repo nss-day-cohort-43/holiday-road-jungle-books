@@ -36,7 +36,7 @@ export const EateryList = () => {
 
 const EaterModal = () => {
 
-    let modalBtn = document.getElementById("modal-btn")
+    let modalBtn = document.getElementById("eateries-modal-btn")
     let modal = document.querySelector(".modal")
     let closeBtn = document.querySelector(".close-btn")
 
