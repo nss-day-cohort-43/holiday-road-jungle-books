@@ -33,6 +33,15 @@ eventHub.addEventListener('activityChosen', event => {
                 </select>
 
             `
+
+            //listen for a change event
+            eventHub.addEventListener('change', event => {
+                if(event.target.classList.contains('parksDropdown')){
+                    if(event.target.value !== '0'){
+                        dispatchParkEvent(event.detail.value)
+                    }
+                }
+            })
         })
     }
 })
