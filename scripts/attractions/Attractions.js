@@ -1,6 +1,22 @@
 // creates HTML to go on dom with the selected attraction (selected in dropdown from AttractionSelect.js)
 
 export const AttractionsHTML = (attractionObj) => {
+
+    var souvenirsAvailable = ""
+    var restroomsAvailable = ""
+
+    if (attractionObj.souvenirs === true) {
+        souvenirsAvailable = "Yes"
+    } else {
+        souvenirsAvailable = "No"
+    }
+
+    if (attractionObj.restrooms === true) {
+        restroomsAvailable = "Yes"
+    } else {
+        restroomsAvailable = "No"
+    }
+
     return `
         <div class="attraction--card" id="attraction--${attractionObj.id}">
             <h2>${attractionObj.name}</h2>
@@ -14,7 +30,7 @@ export const AttractionsHTML = (attractionObj) => {
                 <h4>${attractionObj.name}</h4>
                 <p><strong>Location:</strong> ${attractionObj.city}, ${attractionObj.state}</p>
                 <p>${attractionObj.description}</p>
-                <p><strong>Souvenirs?</strong> ${attractionObj.souvenirs} | <strong>Restrooms?</strong> ${attractionObj.restrooms}</p>
+                <p><strong>Souvenirs?</strong> ${souvenirsAvailable} | <strong>Restrooms?</strong> ${restroomsAvailable}</p>
             </div>
         </div>
     `

@@ -24,6 +24,7 @@
     height: 2em;
     margin-left: 10px;
 }
+
 .modal {
     display: none;
     position: fixed; 
@@ -35,10 +36,11 @@
     background-color: rgb(0, 0, 0);
     background-color: rgba(0, 0, 0, 0.5);
   }
+
   .modal-content {
     position: relative; 
     background-color: white;
-    padding: 20px; 
+    padding: 25px; 
     margin: auto; 
     width: 75%;  
     -webkit-animation-name: animatetop;
@@ -46,19 +48,31 @@
     animation-name: animatetop;
     animation-duration: 0.4s
   }
+
+  .modal-content h3 {
+      margin-top: 0;
+  }
+
+  .modal-content p {
+      margin-bottom: 0;
+  }
+
   .close-btn {
     float: right; 
-    color: lightgray; 
+    color: slategray; 
     font-size: 24px;  
     font-weight: bold;
   }
+
   .close-btn:hover {
     color: darkgray;
   }
+
   @-webkit-keyframes animatetop {
     from {top:-300px; opacity:0} 
     to {top:0; opacity:1}
   }
+
   @keyframes animatetop {
     from {top:-300px; opacity:0}
     to {top:0; opacity:1}
