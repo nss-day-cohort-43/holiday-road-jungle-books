@@ -11,7 +11,6 @@ export const ItineraryHTML = (anObject) => {
             <p class="caption">Date Saved: ${new Date(
               anObject.date
             ).toLocaleDateString("en-US")}</p>
-            
         </section>
         `;
 };

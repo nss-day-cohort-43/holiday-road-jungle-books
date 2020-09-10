@@ -7,7 +7,6 @@ import { getItinerary, useItinerary } from "./ItineraryProvider.js";
 import { ItineraryHTML } from "./Itinerary.js";
 
 let itineraryArray = [];
-
 export const ItineraryList = () => {
   getItinerary().then(() => {
     itineraryArray = useItinerary();

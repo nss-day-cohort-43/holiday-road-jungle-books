@@ -38,7 +38,6 @@ eventHub.addEventListener("click", (clickEvent) => {
     }
   }
 });
-
 export const savedItinerary = () => {
   getItinerary().then(() => {
     ItineraryList(useItinerary());
