@@ -6,7 +6,7 @@
 import { useEateries, getEateries } from './EateryProvider.js'
 
 const eventHub = document.querySelector(".container")
-const contentTarget = document.querySelector(".eateriesDropdown")
+const contentTarget = document.querySelector(".eateryDropdown")
 const buttonTarget = document.querySelector(".eatery--button")
 
 eventHub.addEventListener("change", event => {
@@ -27,14 +27,14 @@ const render = eateriesCollection => {
             <option value="0">Choose an Eatery</option>
             ${
         eateriesCollection.map(eateryObj => {
-            return `<option value="${eateryObj.name}">${eateryObj.name}</option>`
+            return `<option value="${eateryObj.businessName}">${eateryObj.businessName}</option>`
         }).join("")
         }
         </select>
     `
 }
 
-export const AttractionSelect = () => {
+export const EaterySelect = () => {
     getEateries()
         .then(() => {
             const eateries = useEateries()
