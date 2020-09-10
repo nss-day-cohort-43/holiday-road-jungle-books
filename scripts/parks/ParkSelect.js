@@ -4,9 +4,14 @@
 // will dispatch an event.... hopefully.
 import { dispatchParkEvent, getParks, useParks } from './ParkProvider.js'
 
+
+
+
+const eventHub = document.querySelector('.container')
+
 //renders park select component in the dom
-//call getParks ins park select and pass the return of useParks into createOptions
 export const ParkSelect = () => {
+    //fetch parks from api
     getParks()
     .then(_ => {
         var parks = useParks()
@@ -17,6 +22,20 @@ export const ParkSelect = () => {
             ${createOptions(parks)}
         </select>
     `
+        //listen for change event in select element and dispatch custom event
+        eventHub.addEventListener('change', event =>{
+            if(event.target.classList.contains('parkDropdown')){
+                debugger;
+                //find the park object that matches the user's pick from the select component
+                var foundPark = {};
+                foundPark = parks.find(park => {
+                    return event.target.value === park.name
+                })
+                debugger;
+                dispatchParkEvent(foundPark)
+                
+            }
+        })
     })
     
 }
@@ -32,22 +51,8 @@ const createOptions = (parks) => {
     
 }
 
-const eventHub = document.querySelector('.container')
 
-eventHub.addEventListener('change', event =>{
-    if(event.target.classList.contains('parkDropdown')){
-        debugger;
-        var foundPark = {};
-        getParks()
-        .then(_ => {
-            var parks = useParks();
-            foundPark = parks.find(park => {
-                return event.target.value === park.name
-            })
-            debugger;
-            dispatchParkEvent(foundPark)
-        })
-    }
-})
+
+
 
 
