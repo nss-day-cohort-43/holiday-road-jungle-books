@@ -5,13 +5,13 @@ export const AttractionsHTML = (attractionObj) => {
     var souvenirsAvailable = ""
     var restroomsAvailable = ""
 
-    if (attractionObj.souvenirs === true) {
+    if (attractionObj.ameneties.souvenirs === true) {
         souvenirsAvailable = "Yes"
     } else {
         souvenirsAvailable = "No"
     }
 
-    if (attractionObj.restrooms === true) {
+    if (attractionObj.ameneties.restrooms === true) {
         restroomsAvailable = "Yes"
     } else {
         restroomsAvailable = "No"
@@ -35,14 +35,3 @@ export const AttractionsHTML = (attractionObj) => {
         </div>
     `
 }
-
-/*
-export const AttractionsHTML = (attractionObj) => {
-    return `
-        <div class="attraction--card" id="attraction--${attractionObj.id}">
-            <h2>${attractionObj.name}</h2>
-            <button class="attraction--button" id="btn--${attractionObj.id}">Details</button>
-        </div>
-    `
-}
-*/

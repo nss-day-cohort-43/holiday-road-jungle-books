@@ -35,9 +35,11 @@ export const AttractionList = () => {
 }
 
 const AttractionModal = () => {
+
     let modalBtn = document.getElementById("modal-btn")
     let modal = document.querySelector(".modal")
     let closeBtn = document.querySelector(".close-btn")
+
     modalBtn.onclick = function () {
         modal.style.display = "block"
     }
