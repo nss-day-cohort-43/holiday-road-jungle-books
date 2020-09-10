@@ -19,7 +19,7 @@ export const dispatchParkEvent = (park) => {
 }
 
 export const getParks = () => {
-    return fetch(`https://developer.nps.gov/api/v1/parks?api_key=${Settings.npsKey}`)
+    return fetch(`https://developer.nps.gov/api/v1/parks?api_key=${Settings.npsKey}&limit=15`)
     .then(response => response.json())
     .then(parsedParks => {
         parks = parsedParks.data;
