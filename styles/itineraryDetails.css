@@ -3,6 +3,10 @@
     flex-flow: row wrap;
 }
 
+.attractionsContainer {
+    margin-right: 10px;
+}
+
 .attraction--card {
     display: flex;
     flex-flow: row nowrap;
@@ -42,7 +46,7 @@
     background-color: white;
     padding: 25px; 
     margin: auto; 
-    width: 75%;  
+    width: 80%;  
     -webkit-animation-name: animatetop;
     -webkit-animation-duration: 0.4s;
     animation-name: animatetop;
@@ -53,19 +57,38 @@
       margin-top: 0;
   }
 
+  .modal-content h4 {
+      margin-bottom: 0;
+  }
+
   .modal-content p {
       margin-bottom: 0;
   }
 
+  .yesNoContainer {
+      padding: 0;
+      margin: 0;
+      display: flex;
+      flex-flow: row wrap;
+  }
+
+  .yesNoContainer li {
+      list-style-type: none;
+      color: white;
+      background-color: slategray;
+      padding: 10px;
+      margin: 10px 10px 0 0;
+  }
+
   .close-btn {
     float: right; 
-    color: slategray; 
+    color: darkgray; 
     font-size: 24px;  
     font-weight: bold;
   }
 
   .close-btn:hover {
-    color: darkgray;
+    color: slategray;
   }
 
   @-webkit-keyframes animatetop {

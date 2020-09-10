@@ -24,7 +24,7 @@ eventHub.addEventListener("attractionChosen", event => {
 })
 
 const render = attractionCollection => {
-    const contentTarget = document.querySelector('.itineraryAttractionsDetails')
+    const contentTarget = document.querySelector('.attractionsDetails')
     contentTarget.innerHTML = attractionCollection.map(attractionObj => {
         return AttractionsHTML(attractionObj)
     }).join("")
@@ -37,8 +37,8 @@ export const AttractionList = () => {
 const AttractionModal = () => {
 
     let modalBtn = document.getElementById("attraction-modal-btn")
-    let modal = document.querySelector(".modal")
-    let closeBtn = document.querySelector(".close-btn")
+    let modal = document.querySelector(".attraction-modal")
+    let closeBtn = document.querySelector(".attractionCloseBtn")
 
     modalBtn.onclick = function () {
         modal.style.display = "block"
@@ -53,4 +53,4 @@ const AttractionModal = () => {
             modal.style.display = "none"
         }
     }
-}
+}                 

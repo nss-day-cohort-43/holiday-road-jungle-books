@@ -24,7 +24,7 @@ eventHub.addEventListener("eateryChosen", event => {
 })
 
 const render = eateryCollection => {
-    const contentTarget = document.querySelector('.itineraryEateryDetails')
+    const contentTarget = document.querySelector('.eateriesDetails')
     contentTarget.innerHTML = eateryCollection.map(eateryObj => {
         return EateriesHTML(eateryObj)
     }).join("")
@@ -36,9 +36,9 @@ export const EateryList = () => {
 
 const EaterModal = () => {
 
-    let modalBtn = document.getElementById("eateries-modal-btn")
-    let modal = document.querySelector(".modal")
-    let closeBtn = document.querySelector(".close-btn")
+    let modalBtn = document.getElementById("eatery-modal-btn")
+    let modal = document.querySelector(".eatery-modal")
+    let closeBtn = document.querySelector(".eateryCloseBtn")
 
     modalBtn.onclick = function () {
         modal.style.display = "block"

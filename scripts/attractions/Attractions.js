@@ -6,15 +6,11 @@ export const AttractionsHTML = (attractionObj) => {
     var restroomsAvailable = ""
 
     if (attractionObj.ameneties.souvenirs === true) {
-        souvenirsAvailable = "Yes"
-    } else {
-        souvenirsAvailable = "No"
+        souvenirsAvailable = "<li>Souvenirs</li>"
     }
 
     if (attractionObj.ameneties.restrooms === true) {
-        restroomsAvailable = "Yes"
-    } else {
-        restroomsAvailable = "No"
+        restroomsAvailable = "<li>Restrooms</li>"
     }
 
     return `
@@ -23,17 +19,18 @@ export const AttractionsHTML = (attractionObj) => {
             <button class="attraction--button" id="attraction-modal-btn">Details</button>
         </div>
 
-        <div class="modal" id="attraction-info--${attractionObj.id}">
+        <div class="modal attraction-modal" id="attraction-info--${attractionObj.id}">
             <div class="modal-content">
-                <span class="close-btn">&times;</span>
+                <span class="close-btn attractionCloseBtn">&times;</span>
                 <h3>More Info:</h3>
                 <h4>${attractionObj.name}</h4>
                 <p><strong>Location:</strong> ${attractionObj.city}, ${attractionObj.state}</p>
                 <p>${attractionObj.description}</p>
-                <div class="yesNoContainer">
-                    <span><strong>Souvenirs?</strong> ${souvenirsAvailable}
-                    <span><strong>Restrooms?</strong> ${restroomsAvailable}</span>
-                </div>
+                <h4>Amenities:</h4>
+                <ul class="yesNoContainer">
+                    ${souvenirsAvailable}
+                    ${restroomsAvailable}
+                </ul>
             </div>
         </div>
     `

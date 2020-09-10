@@ -10,74 +10,52 @@ export const EateriesHTML = (eateryObj) => {
     let restroomsAvailable = ""
 
     if (eateryObj.ameneties.wheelchairAccessible === true) {
-        wheelchairAvailable = "Yes"
-    } else {
-        wheelchairAvailable = "No"
+        wheelchairAvailable = "<li>Wheelchair Accessible</li>"
     }
 
     if (eateryObj.ameneties.petFriendly === true) {
-        petAvailable = "Yes"
-    } else {
-        petAvailable = "No"
+        petAvailable = "<li>Pet Friendly</li>"
     }
 
     if (eateryObj.ameneties.wifi === true) {
-        wifiAvailable = "Yes"
-    } else {
-        wifiAvailable = "No"
+        wifiAvailable = "<li>Wifi</li>"
     }
 
     if (eateryObj.ameneties.diaperFacility === true) {
-        diaperAvailable = "Yes"
-    } else {
-        diaperAvailable = "No"
+        diaperAvailable = "<li>Diaper Facility</li>"
     }
 
     if (eateryObj.ameneties.playground === true) {
-        playgroundAvailable = "Yes"
-    } else {
-        playgroundAvailable = "No"
+        playgroundAvailable = "<li>Playground</li>"
     }
 
     if (eateryObj.ameneties.restrooms === true) {
-        restroomsAvailable = "yes"
-    } else {
-        restroomsAvailable = "No"
+        restroomsAvailable = "<li>Restrooms</li>"
     }
 
     return `
-        <div class="attraction--card" id="attraction--${eateryObj.id}">
+        <div class="eatery--card" id="eatery--${eateryObj.id}">
             <h2>${eateryObj.businessName}</h2>
-            <button class="attraction--button" id="eateries-modal-btn">Details</button>
+            <button class="eatery--button" id="eatery-modal-btn">Details</button>
         </div>
 
-        <div class="modal" id="attraction-info--${eateryObj.id}">
+        <div class="modal eatery-modal" id="eatery-info--${eateryObj.id}">
             <div class="modal-content">
-                <span class="close-btn">&times;</span>
+                <span class="close-btn eateryCloseBtn">&times;</span>
                 <h3>More Info:</h3>
                 <h4>${eateryObj.businessName}</h4>
                 <p><strong>Location:</strong> ${eateryObj.city}, ${eateryObj.state}</p>
                 <p>${eateryObj.description}</p>
-                <div class="yesNo-container">
-                    <span><strong>Wheelchair Accessible?</strong> ${wheelchairAvailable}</span>
-                    <span><strong>Pet Friendly?</strong> ${petAvailable}</span>
-                    <span><strong>Wifi Available?</strong> ${wifiAvailable}</span>
-                    <span><strong>Diaper Facility?</strong> ${diaperAvailable}</span>
-                    <span><strong>Playground?</strong> ${playgroundAvailable}</span>
-                    <span><strong>Restrooms??</strong> ${restroomsAvailable}</span>
-                </div>           
+                <h4>Amenities:</h4>
+                <ul class="yesNoContainer">
+                    ${wheelchairAvailable}
+                    ${petAvailable}
+                    ${wifiAvailable}
+                    ${diaperAvailable}
+                    ${playgroundAvailable}
+                    ${restroomsAvailable}
+                </ul>           
                 </div>
         </div>
     `
 }
-
-/*
-export const EateriesHTML = (eateryObj) => {
-    return `
-        <div class="eatery--card" id="eatery--${eateryObj.id}">
-            <h2>${eateryObj.businessName}</h2>
-            <button class="eatery--button" id="btn--${eateryObj.id}">Details</button>
-        </div>
-    `
-}
-*/
