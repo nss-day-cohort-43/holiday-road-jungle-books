@@ -4,6 +4,8 @@ import  Settings from "../Settings.js"
 
 var parks = []
 
+const eventHub = document.querySelector('.container')
+
 export const dispatchParkEvent = (park) => {
     const parkSelectEvent = new CustomEvent('parkSelected', {
         detail: {
@@ -12,6 +14,8 @@ export const dispatchParkEvent = (park) => {
             long: park.longitude
         }
     })
+
+    eventHub.dispatchEvent(parkSelectEvent)
 }
 
 export const getParks = () => {

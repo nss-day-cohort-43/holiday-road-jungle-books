@@ -34,8 +34,9 @@ const createOptions = (parks) => {
 
 const eventHub = document.querySelector('.container')
 
-eventHub.addEventListener('click', event =>{
+eventHub.addEventListener('change', event =>{
     if(event.target.classList.contains('parkDropdown')){
+        debugger;
         var foundPark = {};
         getParks()
         .then(_ => {
@@ -43,8 +44,8 @@ eventHub.addEventListener('click', event =>{
             foundPark = parks.find(park => {
                 return event.target.value === park.name
             })
+            debugger;
             dispatchParkEvent(foundPark)
-
         })
     }
 })
