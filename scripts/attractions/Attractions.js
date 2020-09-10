@@ -7,10 +7,14 @@ export const AttractionsHTML = (attractionObj) => {
             <button class="attraction--button" id="modal-btn">Details</button>
         </div>
 
-        <div class="modal">
+        <div class="modal" id="attraction-info--${attractionObj.id}">
             <div class="modal-content">
-            <span class="close-btn">&times;</span>
-            <p>this is the text inside the modal</p>
+                <span class="close-btn">&times;</span>
+                <h3>More Info:</h3>
+                <h4>${attractionObj.name}</h4>
+                <p><strong>Location:</strong> ${attractionObj.city}, ${attractionObj.state}</p>
+                <p>${attractionObj.description}</p>
+                <p><strong>Souvenirs?</strong> ${attractionObj.souvenirs} | <strong>Restrooms?</strong> ${attractionObj.restrooms}</p>
             </div>
         </div>
     `
