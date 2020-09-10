@@ -2,7 +2,7 @@
 // usePark & getPark export
 import  Settings from "../Settings.js"
 
-var parks = []
+let parks = []
 
 const eventHub = document.querySelector('.container')
 
@@ -20,11 +20,12 @@ export const dispatchParkEvent = (park) => {
 }
 
 //fetch parks data from API and set local parks to it
-export const getParks = () => {
-    return fetch(`https://developer.nps.gov/api/v1/parks?api_key=${Settings.npsKey}&limit=15`)
+export const getParks = (activityID) => {
+    debugger;
+    return fetch(`https://developer.nps.gov/api/v1/activities/parks?id=${activityID}&api_key=${Settings.npsKey}`)
     .then(response => response.json())
     .then(parsedParks => {
-        parks = parsedParks.data;
+        parks = parsedParks.data[0].parks;
     })
 }
 

@@ -1,4 +1,4 @@
-import { getActivites, useActivities } from './ActivityProvider.js'
+import { getActivites, useActivities, dispatchActivityEvent } from './ActivityProvider.js'
 
 
 const eventHub = document.querySelector('.container')
@@ -9,9 +9,9 @@ eventHub.addEventListener('stateChosen', event => {
         //fetch all the activites
         getActivites()
         .then(_ => {
-            var activities = useActivities()
+            const activities = useActivities()
             //render select component with all the activities
-            var contentTarget = document.querySelector('.activitiesDropdownContainer')
+            let contentTarget = document.querySelector('.activitiesDropdownContainer')
             contentTarget.innerHTML = `
                 <select class="activitiesDropdown">
                     <option value='0'>Please select an activity...</option>
@@ -20,7 +20,12 @@ eventHub.addEventListener('stateChosen', event => {
                     }).sort().join("")}
                 </select>
             `
-            
+            eventHub.addEventListener('change', event => {
+                if(event.target.classList.contains('activitiesDropdown')){
+                    const stateCode = document.querySelector('.statesDropdown').value
+                    dispatchActivityEvent(event.target.value, stateCode)
+                }
+            })
         })
     }
 })

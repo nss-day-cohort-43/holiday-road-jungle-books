@@ -11,8 +11,18 @@ export const getActivites = () => {
 }
 
 export const useActivities = () => {
-    debugger
     return activities.slice()
 }
 
 const eventHub = document.querySelector('.container')
+
+export const dispatchActivityEvent = (activity, state) => {
+    const activityChosenEvent = new CustomEvent('activityChosen', {
+        detail : {
+            activityID: activity,
+            stateCode: state
+        }
+    })
+
+    eventHub.dispatchEvent(activityChosenEvent)
+}
