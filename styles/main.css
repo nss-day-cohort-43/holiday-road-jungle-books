@@ -1,17 +1,17 @@
-@import 'header.css';
+@import "header.css";
 @import "aside.css";
 @import "weather.css";
 @import "itineraryDetails.css";
-
+@import "heroImage.css";
 body {
-    margin: 0;
+  margin: 0;
 }
 
 .itineraryContainer {
-    display: flex;
-    flex-flow: row nowrap;
+  display: flex;
+  flex-flow: row nowrap;
 }
 
 .itineraryPreview {
-    flex-basis: 65%
+  flex-basis: 65%;
 }
