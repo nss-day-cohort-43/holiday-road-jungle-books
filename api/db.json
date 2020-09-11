@@ -62,6 +62,13 @@
       "attraction": "Giant Abraham Lincoln",
       "date": 1599851832997,
       "id": 10
+    },
+    {
+      "park": "Bent's Old Fort National Historic Site",
+      "eatery": "Buckhorn Exchange",
+      "attraction": "Largest Fork in the US",
+      "date": 1599854108845,
+      "id": 11
     }
   ]
 }

@@ -1,3 +1,17 @@
+@import 'header.css';
 @import "aside.css";
 @import "weather.css";
 @import "itineraryDetails.css";
+
+body {
+    margin: 0;
+}
+
+.itineraryContainer {
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+.itineraryPreview {
+    flex-basis: 65%
+}

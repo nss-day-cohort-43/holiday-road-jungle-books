@@ -12,9 +12,9 @@ font-family: 'Roboto', sans-serif;
 */
 
 aside {
-  flex: 1;
   background-color: #f9d8d2;
   padding: 1em;
+  flex-basis: 35%;
 }
 
 aside h3 {
