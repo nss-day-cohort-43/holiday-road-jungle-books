@@ -8,7 +8,6 @@ export const EateriesHTML = (eateryObj) => {
     let diaperAvailable = ""
     let playgroundAvailable = ""
     let restroomsAvailable = ""
-    let amenitiesAvailable = ""
 
     if (eateryObj.ameneties.wheelchairAccessible === true) {
         wheelchairAvailable = "<li>Wheelchair Accessible</li>"
