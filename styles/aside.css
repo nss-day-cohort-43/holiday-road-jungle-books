@@ -1,0 +1,56 @@
+/* 
+    will need to link this to the main css file  
+*/
+@import url("https://fonts.googleapis.com/css2?family=Lato&family=Lobster&family=Montserrat&family=Open+Sans&family=Oswald&family=Roboto&display=swap");
+/*
+font-family: 'Lato', sans-serif;
+font-family: 'Lobster', cursive;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Oswald', sans-serif;
+font-family: 'Roboto', sans-serif;
+*/
+
+aside {
+  flex: 1;
+  background-color: #f9d8d2;
+  padding: 1em;
+}
+
+aside h3 {
+  background-color: #347893;
+  color: white;
+  font-family: "Lobster", cursive;
+  font-size: 24px;
+  letter-spacing: 1.5px;
+  width: 85%;
+  margin: 0;
+  padding: 1em;
+}
+
+.savedItinerary p {
+  margin: 0;
+  padding: 0.2em;
+  font-family: "Lato", sans-serif;
+}
+
+.card-itinerary {
+  padding: 0.33em;
+  margin: 0.75em;
+  border-bottom: 1px solid #699cb3;
+}
+
+.caption {
+  font-size: 12px;
+  opacity: 50%;
+  margin-bottom: 0.7em;
+}
+
+.card-title {
+  font-size: 18px;
+  margin: 0.75em;
+  padding: 1.75em;
+  text-decoration: underline;
+  font-weight: 600;
+  font-family: "Oswald", sans-serif;
+}

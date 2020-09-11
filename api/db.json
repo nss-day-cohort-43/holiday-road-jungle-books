@@ -1,3 +1,60 @@
 {
-	"itineraries": []
+  "itineraries": [
+    {
+      "park": "Ron Swanson's House",
+      "eatery": "Taco Bell",
+      "attraction": "Grass Field",
+      "date": 1599748126271,
+      "id": 2
+    },
+    {
+      "park": "Nina Hannold Grave",
+      "eatery": "Turnip the Beet",
+      "attraction": "Big White Shirt",
+      "date": 1599748126271,
+      "id": 3
+    },
+    {
+      "park": "Big Bend National Park",
+      "eatery": "Burgatory",
+      "attraction": "Giant Tattoo Needle",
+      "date": 1599748128565,
+      "id": 4
+    },
+    {
+      "park": "Wayward Pines",
+      "eatery": "Cheesy Does It",
+      "attraction": "Elvis Memorial Chapel",
+      "date": 1599748129949,
+      "id": 5
+    },
+    {
+      "park": "Dunder Mifflin",
+      "eatery": "Dairy Godmother",
+      "attraction": "Snake World",
+      "date": 1599748131389,
+      "id": 6
+    },
+    {
+      "park": "Walter White's RV",
+      "eatery": "The Garden of Eat'n",
+      "attraction": "Caboon Dinosours",
+      "date": 1599748132075,
+      "id": 7
+    },
+    {
+      "park": "Area 51",
+      "eatery": "Holy Guacamole",
+      "attraction": "Largest Fork in the US",
+      "date": 1599752089773,
+      "id": 8
+    },
+    {
+      "park": "BFE Alaska Park",
+      "eatery": "Kale Me Crazy",
+      "attraction": "Fountain of Youth",
+      "date": 1599752090639,
+      "id": 9
+    }
+  ]
 }
