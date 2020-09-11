@@ -57,79 +57,11 @@
       "id": 9
     },
     {
-      "park": "PULL FROM PARK DROPDOWN MENU",
-      "eatery": "PULL FROM EATERY DROPDOWN MENU",
-      "attraction": "PULL FROM ATTRACTION DROPDOWN MENU",
-      "date": 1599834738221,
+      "park": "Big Cypress National Preserve",
+      "eatery": "Hy's Steak House",
+      "attraction": "Giant Abraham Lincoln",
+      "date": 1599851832997,
       "id": 10
-    },
-    {
-      "park": "chosenPark.name;",
-      "eatery": "PULL FROM EATERY DROPDOWN MENU",
-      "attraction": "PULL FROM ATTRACTION DROPDOWN MENU",
-      "date": 1599842195406,
-      "id": 11
-    },
-    {
-      "park": "Joshua Tree National Park",
-      "attraction": "PULL FROM ATTRACTION DROPDOWN MENU",
-      "date": 1599843394445,
-      "id": 12
-    },
-    {
-      "park": "Pipe Spring National Monument",
-      "attraction": "PULL FROM ATTRACTION DROPDOWN MENU",
-      "date": 1599843434046,
-      "id": 13
-    },
-    {
-      "eatery": "Buckhorn Exchange",
-      "attraction": "PULL FROM ATTRACTION DROPDOWN MENU",
-      "date": 1599843593036,
-      "id": 14
-    },
-    {
-      "eatery": "Hudson's Hamburgers",
-      "attraction": "PULL FROM ATTRACTION DROPDOWN MENU",
-      "date": 1599843628833,
-      "id": 15
-    },
-    {
-      "eatery": "El Charro Cafe",
-      "attraction": "PULL FROM ATTRACTION DROPDOWN MENU",
-      "date": 1599843837900,
-      "id": 16
-    },
-    {
-      "eatery": "H&H Soul Food",
-      "attraction": "PULL FROM ATTRACTION DROPDOWN MENU",
-      "date": 1599843857000,
-      "id": 17
-    },
-    {
-      "attraction": "PULL FROM ATTRACTION DROPDOWN MENU",
-      "date": 1599843958049,
-      "id": 18
-    },
-    {
-      "attraction": "PULL FROM ATTRACTION DROPDOWN MENU",
-      "date": 1599843959590,
-      "id": 19
-    },
-    {
-      "attraction": "PULL FROM ATTRACTION DROPDOWN MENU",
-      "date": 1599843960231,
-      "id": 20
-    },
-    {
-      "attraction": "PULL FROM ATTRACTION DROPDOWN MENU",
-      "date": 1599843964574,
-      "id": 21
-    },
-    {
-      "attraction": "PULL FROM ATTRACTION DROPDOWN MENU",
-      "date": 1599843965631,
-      "id": 22
     }
   ]
 }

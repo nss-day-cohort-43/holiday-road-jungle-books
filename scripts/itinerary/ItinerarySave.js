@@ -13,6 +13,7 @@ import { ItineraryList } from "./ItineraryList.js";
 import { ItineraryHTML } from "./Itinerary.js";
 import { usePark } from "../parks/ParkProvider.js";
 import { useMatchingEatery } from "../eateries/EateryList.js";
+import { useMatchingAttraction } from "../attractions/AttractionList.js";
 
 const elementTarget = document.querySelector(".savedItinerary");
 const eventHub = document.querySelector(".container");
@@ -21,9 +22,10 @@ eventHub.addEventListener("click", (clickEvent) => {
   if (clickEvent.target.classList.contains("itinerarySaveBtn")) {
     let chosenPark = usePark();
     let chosenEatery = useMatchingEatery();
+    let chosenAttraction = useMatchingAttraction();
     const parkChosen = chosenPark.fullName;
     const eateryChosen = chosenEatery[0].businessName;
-    const attractionChosen = "PULL FROM ATTRACTION DROPDOWN MENU";
+    const attractionChosen = chosenAttraction[0].name;
 
     if (attractionChosen === "") {
       window.alert("please select an attraction");
