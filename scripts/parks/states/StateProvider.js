@@ -8,10 +8,11 @@ export const useStates = () => {
 const eventHub = document.querySelector('.container')
 
 //dispatches an event with the chosen state
-export const dispatchStateEvent = (state) => {
+export const dispatchStateEvent = (state, activity) => {
     const stateChosenEvent = new CustomEvent('stateChosen', {
         detail: {
-            stateCode: state
+            stateCode: state,
+            activityID: activity
         }
     })
     eventHub.dispatchEvent(stateChosenEvent)

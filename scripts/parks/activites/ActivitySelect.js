@@ -4,10 +4,9 @@ import { getActivites, useActivities, dispatchActivityEvent } from './ActivityPr
 const eventHub = document.querySelector('.container')
 
 //listen for when a state is chosen
-eventHub.addEventListener('stateChosen', event => {
-    if(event.detail.hasOwnProperty('stateCode')){
-        //fetch all the activites
-        getActivites()
+export const ActivitySelect = () => {
+    //fetch all the activites
+    getActivites()
         .then(_ => {
             const activities = useActivities()
             //render select component with all the activities
@@ -21,11 +20,14 @@ eventHub.addEventListener('stateChosen', event => {
                 </select>
             `
             eventHub.addEventListener('change', event => {
-                if(event.target.classList.contains('activitiesDropdown')){
+                if (event.target.classList.contains('activitiesDropdown')) {
                     const stateCode = document.querySelector('.statesDropdown').value
-                    dispatchActivityEvent(event.target.value, stateCode)
+                    if(stateCode !== '0'){
+                        dispatchActivityEvent(event.target.value, stateCode)
+                    }  
                 }
             })
         })
-    }
-})
+}
+
+

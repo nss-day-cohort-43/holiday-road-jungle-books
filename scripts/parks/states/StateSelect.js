@@ -17,7 +17,8 @@ export const StateSelect = () => {
     //listen for change and dispatch custom event
     eventHub.addEventListener('change', event => {
         if(event.target.classList.contains('statesDropdown')){
-            dispatchStateEvent(event.target.value)
+            const activtyId = document.querySelector('.activitiesDropdown').value
+            dispatchStateEvent(event.target.value, activtyId)
         }
     })
 }
