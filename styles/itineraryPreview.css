@@ -1,0 +1,25 @@
+.itineraryContainer {
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+.itineraryPreview {
+    flex-basis: 65%;
+    display: flex;
+    flex-flow: row wrap;
+    align-content: flex-start;
+    background-color: #699CB3;
+    padding: 50px; 
+}
+
+.itineraryTitle h2 {
+    margin: 0;
+}
+
+.weatherCard {
+    text-align: center;
+}
+
+.itinerarySaveBtn {
+    margin: 25px 0 0 auto; 
+}
