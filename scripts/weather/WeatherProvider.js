@@ -8,20 +8,12 @@ export const useWeather = () => {
   return weatherArray;
 };
 
-const weatherAPI = (lat, lon, apiKey) => {
+export const getWeather = (lat, lon) => {
   return fetch(
-    `http://api.openweathermap.org/data/2.5/forecast?lat=${lat}&lon=${lon}&appid=${apiKey}`
+    `http://api.openweathermap.org/data/2.5/forecast?lat=${lat}&lon=${lon}&appid=${Settings.weatherKey}`
   )
     .then((response) => response.json())
     .then((parsedWheater) => {
       weatherArray = parsedWheater;
     });
-};
-
-//call the weather api with parameters
-export const getWeather = () => {
-  const lat = 30.4382559;
-  const lon = -84.2807329;
-  const apiKey = Settings.weatherKey;
-  return weatherAPI(lat, lon, apiKey);
 };
