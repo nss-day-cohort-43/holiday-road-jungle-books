@@ -3,7 +3,7 @@
 // listen for customEvent from EaterySelect
 
 import { getEateries, useEateries } from './EateryProvider.js'
-import { EateriesHTML } from './Eateries.js'
+import { EateriesHTML, EaterModal } from './Eateries.js'
 
 const eventHub = document.querySelector(".container")
 
@@ -32,25 +32,4 @@ const render = eateryCollection => {
 
 export const EateryList = () => {
     getEateries()
-}
-
-const EaterModal = () => {
-
-    let modalBtn = document.getElementById("eatery-modal-btn")
-    let modal = document.querySelector(".eatery-modal")
-    let closeBtn = document.querySelector(".eateryCloseBtn")
-
-    modalBtn.onclick = function () {
-        modal.style.display = "block"
-    }
-
-    closeBtn.onclick = function () {
-        modal.style.display = "none"
-    }
-
-    window.onclick = function (e) {
-        if (e.target == modal) {
-            modal.style.display = "none"
-        }
-    }
 }
