@@ -57,10 +57,10 @@
       "id": 9
     },
     {
-      "park": "PULL FROM PARK DROPDOWN MENU",
-      "eatery": "PULL FROM EATERY DROPDOWN MENU",
-      "attraction": "PULL FROM ATTRACTION DROPDOWN MENU",
-      "date": 1599834738221,
+      "park": "Big Cypress National Preserve",
+      "eatery": "Hy's Steak House",
+      "attraction": "Giant Abraham Lincoln",
+      "date": 1599851832997,
       "id": 10
     }
   ]

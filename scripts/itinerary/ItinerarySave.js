@@ -11,20 +11,25 @@ import {
 } from "./ItineraryProvider.js";
 import { ItineraryList } from "./ItineraryList.js";
 import { ItineraryHTML } from "./Itinerary.js";
+import { usePark } from "../parks/ParkProvider.js";
+import { useMatchingEatery } from "../eateries/EateryList.js";
+import { useMatchingAttraction } from "../attractions/AttractionList.js";
 
 const elementTarget = document.querySelector(".savedItinerary");
 const eventHub = document.querySelector(".container");
 
 eventHub.addEventListener("click", (clickEvent) => {
   if (clickEvent.target.classList.contains("itinerarySaveBtn")) {
-    console.log("button clicked");
-    const parkChosen = "PULL FROM PARK DROPDOWN MENU";
-    const eateryChosen = "PULL FROM EATERY DROPDOWN MENU";
-    const attractionChosen = "PULL FROM ATTRACTION DROPDOWN MENU";
+    let chosenPark = usePark();
+    let chosenEatery = useMatchingEatery();
+    let chosenAttraction = useMatchingAttraction();
+    const parkChosen = chosenPark.fullName;
+    const eateryChosen = chosenEatery[0].businessName;
+    const attractionChosen = chosenAttraction[0].name;
 
-    if (attractionChosen.value === "") {
+    if (attractionChosen === "") {
       window.alert("please select an attraction");
-    } else if (eateryChosen.value === "") {
+    } else if (eateryChosen === "") {
       window.alert("please select an eatery");
     } else {
       const newItinerary = {
