@@ -1,11 +1,10 @@
-@import 'header.css';
+@import "header.css";
 @import "aside.css";
 @import "weather.css";
 @import 'itineraryPreview.css';
 @import "itineraryDetails.css";
-
 body {
-    margin: 0;
+  margin: 0;
 }
 
 footer {
@@ -18,4 +17,13 @@ footer {
 
 footer p {
     margin: 0;
+}
+
+.itineraryContainer {
+  display: flex;
+  flex-flow: row nowrap;
+}
+
+.itineraryPreview {
+  flex-basis: 65%;
 }
