@@ -6,11 +6,9 @@ export const AttractionsHTML = (attractionObj) => {
     let souvenirsAvailable = ""
     let restroomsAvailable = ""
 
-    if (attractionObj.ameneties !== undefined) {
-        amenitiesAvailable = "<h4>Amenities</h4>"
-    }
+    let chosenAttraction = attractionObj.ameneties
 
-    // return Object.keys(obj).length
+    console.log(chosenAttraction)
 
     if (attractionObj.ameneties.souvenirs === true) {
         souvenirsAvailable = "<li>Souvenirs</li>"
