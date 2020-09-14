@@ -21,7 +21,7 @@ export const ItineraryHTML = (anObject) => {
     amenetiesArray.push("&#9977;");
   }
   if (anObject.eatery.ameneties.restrooms === true) {
-    amenetiesArray.push("&#128169;");
+    amenetiesArray.push("&#128701;");
   }  
 
   let attractionAmenetiesArray = [];

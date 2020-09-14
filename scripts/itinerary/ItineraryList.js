@@ -31,9 +31,9 @@ eventHub.addEventListener("sidebarExtraInfo", customEvent => {
   const correctAreaOnDom = document.querySelector(`.${btnType}--${btnID}`)
 
   if (btnType === "eateryInfo") {
-    hideFees();
-    hideHours();
     hideActivities();
+    hideHours();
+    hideFees();
     hideInfo();
     hideAttraction();
     if (correctAreaOnDom.style.display === "none") {
@@ -44,9 +44,9 @@ eventHub.addEventListener("sidebarExtraInfo", customEvent => {
   }
 
   if (btnType === "attractionInfo") {
-    hideFees();
-    hideHours();
     hideActivities();
+    hideHours();
+    hideFees();
     hideInfo();
     hideEatery();
     if (correctAreaOnDom.style.display === "none") {
@@ -57,8 +57,8 @@ eventHub.addEventListener("sidebarExtraInfo", customEvent => {
   }
 
   if (btnType === "parkHours") {
-    hideFees();
     hideActivities();
+    hideFees();
     hideInfo();
     hideEatery();
     hideAttraction();
@@ -70,8 +70,8 @@ eventHub.addEventListener("sidebarExtraInfo", customEvent => {
   }
 
   if (btnType === "parkFees") {
-    hideHours();
     hideActivities();
+    hideHours();
     hideInfo();
     hideEatery();
     hideAttraction();
@@ -83,7 +83,6 @@ eventHub.addEventListener("sidebarExtraInfo", customEvent => {
   }
 
   if (btnType === "parkActivities") {
-    hideActivities();
     hideHours();
     hideFees();
     hideInfo();
@@ -97,8 +96,8 @@ eventHub.addEventListener("sidebarExtraInfo", customEvent => {
   }
 
   if (btnType === "parkInfo") {
-    hideHours();
     hideActivities();
+    hideHours();
     hideFees();
     hideEatery();
     hideAttraction();

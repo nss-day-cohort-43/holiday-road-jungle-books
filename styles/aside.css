@@ -58,7 +58,7 @@ aside h3 {
 }
 
 .more-info-btn:hover {
-  color: slategray;
+  color: black;
 }
 
 .iconContainer {
@@ -79,6 +79,7 @@ aside h3 {
 
 .parkHours, .parkFees, .parkActivities, .parkInfo {
   font-size: 10px;
+  padding: 5px 15px;
 }
 
 .card-itinerary h4, p {
