@@ -1,74 +1,502 @@
 {
   "itineraries": [
     {
-      "park": "Ron Swanson's House",
-      "eatery": "Taco Bell",
-      "attraction": "Grass Field",
-      "date": 1599748126271,
-      "id": 2
+      "park": {
+        "url": "https://www.nps.gov/casa/index.htm",
+        "fullName": "Castillo de San Marcos National Monument",
+        "id": "E455313B-782A-4CDC-A6A5-8B506FA3A4C1",
+        "parkCode": "casa",
+        "description": "A monument not only of stone and mortar but of human determination and endurance, the Castillo de San Marcos symbolizes the clash between cultures which ultimately resulted in our uniquely unified nation. Still resonant with the struggles of an earlier time, these original walls provide tangible evidence of America’s grim but remarkable history.",
+        "latitude": "29.89785701",
+        "longitude": "-81.31217173",
+        "latLong": "lat:29.89785701, long:-81.31217173",
+        "activities": [
+          {
+            "id": "B204DE60-5A24-43DD-8902-C81625A09A74",
+            "name": "Living History"
+          },
+          {
+            "id": "237A1662-6018-4115-ABD1-B8CCF827E703",
+            "name": "Historic Weapons Demonstration"
+          },
+          {
+            "id": "DF4A35E0-7983-4A3E-BC47-F37B872B0F25",
+            "name": "Junior Ranger Program"
+          },
+          {
+            "id": "0C0D142F-06B5-4BE1-8B44-491B90F93DEB",
+            "name": "Park Film"
+          }
+        ],
+        "topics": [
+          {
+            "id": "69693007-2DF2-4EDE-BB3B-A25EBA72BDF5",
+            "name": "Architecture and Building"
+          },
+          {
+            "id": "988B4AFC-F478-4673-B66D-E6BDB0CCFF35",
+            "name": "Forts"
+          },
+          {
+            "id": "78078CA8-DCBC-4320-A7BF-259A56D55CA2",
+            "name": "Hispanic American Heritage"
+          },
+          {
+            "id": "4C9D4777-A9DA-47D1-A0B9-F4A3C98BC1B3",
+            "name": "Maritime"
+          },
+          {
+            "id": "123CE28E-0EFA-4330-8E6E-EEFF3D7BF772",
+            "name": "Coastal Defenses"
+          },
+          {
+            "id": "3B0D607D-9933-425A-BFA0-21529AC4734C",
+            "name": "Military"
+          },
+          {
+            "id": "B145FAB8-5462-4FE2-964E-464D3A5E7F96",
+            "name": "Artillery"
+          },
+          {
+            "id": "BEB7E470-13B2-4E00-84B2-0402D98DAF69",
+            "name": "Monuments and Memorials"
+          },
+          {
+            "id": "27BF8807-54EA-4A3D-B073-AA7AA361CD7E",
+            "name": "Wars and Conflicts"
+          },
+          {
+            "id": "3D2EE3E9-7344-416C-A412-C2C7CDCDE684",
+            "name": "Colonial/European Contact Conflicts"
+          }
+        ],
+        "states": "FL",
+        "contacts": {
+          "phoneNumbers": [
+            {
+              "phoneNumber": "9048296506",
+              "description": "",
+              "extension": "",
+              "type": "Voice"
+            },
+            {
+              "phoneNumber": "9048239388",
+              "description": "",
+              "extension": "",
+              "type": "Fax"
+            }
+          ],
+          "emailAddresses": [
+            {
+              "description": "",
+              "emailAddress": "casa_ranger_activities@nps.gov"
+            }
+          ]
+        },
+        "entranceFees": [
+          {
+            "cost": "15.0000",
+            "description": "Individual admission for persons 16 years of age or older.",
+            "title": "Castillo Entrance Fee - Per Person - Adult"
+          },
+          {
+            "cost": "0.0000",
+            "description": "Individual admission for person age 15 and younger",
+            "title": "Castillo Entrance Fee - Per Person - Child"
+          }
+        ],
+        "entrancePasses": [
+          {
+            "cost": "45.0000",
+            "description": "One year admission pass for the card holder and up to three additional adults.",
+            "title": "Castillo Annual Pass"
+          }
+        ],
+        "directionsInfo": "On State Route A1A overlooking Matanzas Bay in the heart of the historic district of Saint Augustine, the Castillo is approximately a five mile drive from Interstate 95.",
+        "directionsUrl": "http://www.nps.gov/casa/planyourvisit/directions.htm",
+        "operatingHours": [
+          {
+            "exceptions": [],
+            "description": "Due to the ongoing COVID-19 pandemic, the Castillo de San Marcos is closed to the public. We do not currently have a reopening date scheduled. Our website and social media will be updated with any changes.  Normally, the Castillo is open from 9 a.m. to 5 p.m. every day except Thanksgiving and Christmas.",
+            "standardHours": {
+              "Wednesday": "Closed",
+              "Monday": "Closed",
+              "Thursday": "Closed",
+              "Sunday": "Closed",
+              "Tuesday": "Closed",
+              "Friday": "Closed",
+              "Saturday": "Closed"
+            },
+            "name": "COVID-19 Closure"
+          }
+        ],
+        "addresses": [
+          {
+            "postalCode": "32084",
+            "city": "Saint Augustine",
+            "stateCode": "FL",
+            "line1": "11 South Castillo Drive",
+            "type": "Physical",
+            "line3": "",
+            "line2": ""
+          },
+          {
+            "postalCode": "32084",
+            "city": "Saint Augustine",
+            "stateCode": "FL",
+            "line1": "1 South Castillo Drive",
+            "type": "Mailing",
+            "line3": "",
+            "line2": ""
+          }
+        ],
+        "images": [
+          {
+            "credit": "NPS Photo",
+            "title": "Castillo Drawbridge",
+            "altText": "Drawbridge entrance to the Castillo de San Marcos",
+            "caption": "Crossing a dry moat, this drawbridge was the only way into the Castillo.",
+            "url": "https://www.nps.gov/common/uploads/structured_data/3C7E9A99-1DD8-B71B-0B5C1C290617CA10.jpg"
+          },
+          {
+            "credit": "NPS Photo",
+            "title": "Castillo de San Marcos Hot Shot Furnace",
+            "altText": "Furnace for heating cannon balls",
+            "caption": "This furnace, in the water battery on the east side of the Castillo, heated cannonballs red hot to be fired at wooden vessels.",
+            "url": "https://www.nps.gov/common/uploads/structured_data/3C7E9C21-1DD8-B71B-0BD0130B2301D251.jpg"
+          },
+          {
+            "credit": "NPS Photo",
+            "title": "Castillo de San Marcos Cannon",
+            "altText": "Four black iron cannon mounted on carriages line the walls of the Castillo.",
+            "caption": "The Castillo features both iron and bronze cannon and mortar from the period.",
+            "url": "https://www.nps.gov/common/uploads/structured_data/3C7E9D4A-1DD8-B71B-0BF818568C6A02B4.jpg"
+          },
+          {
+            "credit": "NPS Photo",
+            "title": "Castillo de San Marcos Cannon Firing",
+            "altText": "Re-enactors of the first Spanish period cover their ears while firing a cannon.",
+            "caption": "Cannon firing demonstrations are scheduled five times a day every Friday, Saturday, and Sunday.",
+            "url": "https://www.nps.gov/common/uploads/structured_data/3C7E9EBA-1DD8-B71B-0B74E5FB66D9CBB0.jpg"
+          },
+          {
+            "credit": "NPS Photo",
+            "title": "Castillo de San Marcos Aerial View",
+            "altText": "Aerial view of the Castillo and the city of St. Augustine",
+            "caption": "the Castillo commands the northern edge of the heart of downtown St. Augsutine.",
+            "url": "https://www.nps.gov/common/uploads/structured_data/3C7EA03D-1DD8-B71B-0B1EB4B61FB5F117.jpg"
+          }
+        ],
+        "weatherInfo": "St. Augustine has a semi-tropical climate with over 300 days of sunshine each year. Summers (May-September) are hot, bright, and humid with afternoon thunderstorms common. Temperatures range from the lower 70s to the mid 90s F. Spring (March-mid-May) and Autumn (October-late November) can be pleasant with temperatures ranging from the upper 50s into the 80s F. The Winter months (December-March) are usually dry. Temperatures can be cool ranging from the upper 30s through the 60sF.",
+        "name": "Castillo de San Marcos",
+        "designation": "National Monument"
+      },
+      "eatery": {
+        "businessName": "McClard's BBQ",
+        "description": "Five generations of the McClard family have been working the smoker since they opened their spot in the '20s, which is a type of nepotism no one who's ever eaten their ribs or chicken is complaining about. One of the most popular dishes is the tamale spread, a vast pile of food that includes tamales covered in Fritos, beans, chopped meat, onions, and cheese -- it was initially thrown together in the early '70s to help one of the dishwashers sober up, but eventually caught on with the customers. It's uniquely McClard's and uniquely Arkansas.",
+        "state": "AR",
+        "city": "Hot Springs",
+        "id": 5,
+        "ameneties": {
+          "wheelchairAccessible": false,
+          "petFriendly": false,
+          "wifi": true,
+          "diaperFacility": true,
+          "playground": true,
+          "restrooms": true
+        }
+      },
+      "attraction": {
+        "id": 5,
+        "name": "Cabazon Dinosaurs",
+        "state": "CA",
+        "city": "Cabazon",
+        "description": "In the middle of nowhere, California, stand the Cabazon Dinosaurs. There are two dinosaurs, and they are glorious — not to mention highly photographed by tourists on their way to vacation in Palm Springs. These dinosaurs are also known for their appearance in Pee Wee’s Big Adventure. The long-necked dinosaur also houses stairs and a kitschy toy shop inside its body.",
+        "ameneties": {
+          "souvenirs": true,
+          "restrooms": false
+        }
+      },
+      "date": 1600095115796,
+      "id": 12
     },
     {
-      "park": "Nina Hannold Grave",
-      "eatery": "Turnip the Beet",
-      "attraction": "Big White Shirt",
-      "date": 1599748126271,
-      "id": 3
-    },
-    {
-      "park": "Big Bend National Park",
-      "eatery": "Burgatory",
-      "attraction": "Giant Tattoo Needle",
-      "date": 1599748128565,
-      "id": 4
-    },
-    {
-      "park": "Wayward Pines",
-      "eatery": "Cheesy Does It",
-      "attraction": "Elvis Memorial Chapel",
-      "date": 1599748129949,
-      "id": 5
-    },
-    {
-      "park": "Dunder Mifflin",
-      "eatery": "Dairy Godmother",
-      "attraction": "Snake World",
-      "date": 1599748131389,
-      "id": 6
-    },
-    {
-      "park": "Walter White's RV",
-      "eatery": "The Garden of Eat'n",
-      "attraction": "Caboon Dinosours",
-      "date": 1599748132075,
-      "id": 7
-    },
-    {
-      "park": "Area 51",
-      "eatery": "Holy Guacamole",
-      "attraction": "Largest Fork in the US",
-      "date": 1599752089773,
-      "id": 8
-    },
-    {
-      "park": "BFE Alaska Park",
-      "eatery": "Kale Me Crazy",
-      "attraction": "Fountain of Youth",
-      "date": 1599752090639,
-      "id": 9
-    },
-    {
-      "park": "Big Cypress National Preserve",
-      "eatery": "Hy's Steak House",
-      "attraction": "Giant Abraham Lincoln",
-      "date": 1599851832997,
-      "id": 10
-    },
-    {
-      "park": "Bent's Old Fort National Historic Site",
-      "eatery": "Buckhorn Exchange",
-      "attraction": "Largest Fork in the US",
-      "date": 1599854108845,
-      "id": 11
+      "park": {
+        "url": "https://www.nps.gov/auca/index.htm",
+        "fullName": "Augusta Canal National Heritage Area",
+        "id": "813548D1-F8EA-4C07-8878-17FB3C385378",
+        "parkCode": "auca",
+        "description": "The Augusta Canal helped usher the Industrial Revolution into the American South. Built in 1845 as a source of power, water, and transportation, the canal today is the only fully intact American industrial canal in continuous operation. By 1847 the first mills opened, followed by the massive Civil War era Confederate Powder Works and many more industries in the later decades of the 19th century.",
+        "latitude": "33.5099067687988",
+        "longitude": "-82.0053787231445",
+        "latLong": "lat:33.5099067687988, long:-82.0053787231445",
+        "activities": [
+          {
+            "id": "7CE6E935-F839-4FEC-A63E-052B1DEF39D2",
+            "name": "Biking"
+          },
+          {
+            "id": "8D778629-F603-4C50-A121-6F4BB2FE2C4B",
+            "name": "Road Biking"
+          },
+          {
+            "id": "071BA73C-1D3C-46D4-A53C-00D5602F7F0E",
+            "name": "Boating"
+          },
+          {
+            "id": "A510F02B-8938-4679-A4F9-76580BCAE9C7",
+            "name": "Boat Tour"
+          },
+          {
+            "id": "AE42B46C-E4B7-4889-A122-08FE180371AE",
+            "name": "Fishing"
+          },
+          {
+            "id": "25FB188F-5AAD-459A-9092-28A9801709FF",
+            "name": "Freshwater Fishing"
+          },
+          {
+            "id": "1DFACD97-1B9C-4F5A-80F2-05593604799E",
+            "name": "Food"
+          },
+          {
+            "id": "C6D3230A-2CEA-4AFE-BFF3-DC1E2C2C4BB4",
+            "name": "Picnicking"
+          },
+          {
+            "id": "B33DC9B6-0B7D-4322-BAD7-A13A34C584A3",
+            "name": "Guided Tours"
+          },
+          {
+            "id": "5A241412-0CFB-497A-9B5F-0AB8C03CDE72",
+            "name": "Boat Tour"
+          },
+          {
+            "id": "4D224BCA-C127-408B-AC75-A51563C42411",
+            "name": "Paddling"
+          },
+          {
+            "id": "21DB3AFC-8AAC-4665-BC1F-7198C0685983",
+            "name": "Canoeing"
+          },
+          {
+            "id": "F353A9ED-4A08-456E-8DEC-E61974D0FEB6",
+            "name": "Kayaking"
+          },
+          {
+            "id": "B3EF12AF-D951-419E-BD3C-6B36CBCC1E16",
+            "name": "Stand Up Paddleboarding"
+          },
+          {
+            "id": "0B685688-3405-4E2A-ABBA-E3069492EC50",
+            "name": "Wildlife Watching"
+          },
+          {
+            "id": "C8F98B28-3C10-41AE-AA99-092B3B398C43",
+            "name": "Museum Exhibits"
+          },
+          {
+            "id": "24380E3F-AD9D-4E38-BF13-C8EEB21893E7",
+            "name": "Shopping"
+          }
+        ],
+        "topics": [
+          {
+            "id": "69693007-2DF2-4EDE-BB3B-A25EBA72BDF5",
+            "name": "Architecture and Building"
+          },
+          {
+            "id": "DAAD7F5E-9112-45F2-9A27-DA51B639F27E",
+            "name": "Dams"
+          },
+          {
+            "id": "FE005582-12C5-472C-8229-3CB004DB050E",
+            "name": "Engineering"
+          },
+          {
+            "id": "0B575E33-B68F-4F3D-998E-B03284606CF3",
+            "name": "Industry"
+          },
+          {
+            "id": "AAF8795A-231B-4DA4-B564-AA51C95E72BD",
+            "name": "Factories"
+          },
+          {
+            "id": "BD81BF37-14B1-408A-903F-2BF52C8C7927",
+            "name": "Mills"
+          },
+          {
+            "id": "D1CF31DE-AFED-412B-9425-DD1FD4CBB5C7",
+            "name": "Science, Technology and Innovation"
+          },
+          {
+            "id": "FE2C2613-B41E-4531-BC43-03EB6E45CBCF",
+            "name": "Transportation"
+          },
+          {
+            "id": "9749E14B-ED9A-4E86-BAEA-CAC7B718F266",
+            "name": "Canals"
+          },
+          {
+            "id": "846E5C56-E5AC-489C-B3BF-11F4C73F12C2",
+            "name": "Urban America"
+          },
+          {
+            "id": "0D00073E-18C3-46E5-8727-2F87B112DDC6",
+            "name": "Animals"
+          },
+          {
+            "id": "957EF2BD-AC6C-4B7B-BD9A-87593ADC6691",
+            "name": "Birds"
+          },
+          {
+            "id": "1608649A-E7D7-4529-BD83-074C90F9FB68",
+            "name": "Fish"
+          },
+          {
+            "id": "A155238F-0DD2-4610-9B87-05FCE1C59283",
+            "name": "River and Riparian"
+          }
+        ],
+        "states": "GA",
+        "contacts": {
+          "phoneNumbers": [
+            {
+              "phoneNumber": "706-823-0440 / 1-888-659-8926",
+              "description": "",
+              "extension": "",
+              "type": "Voice"
+            },
+            {
+              "phoneNumber": "706-823-1045",
+              "description": "",
+              "extension": "",
+              "type": "Fax"
+            }
+          ],
+          "emailAddresses": [
+            {
+              "description": "",
+              "emailAddress": "mharrison@augustacanal.com"
+            }
+          ]
+        },
+        "entranceFees": [
+          {
+            "cost": "0.0000",
+            "description": "While there is no cost to the Augusta Canal National Heritage Area, there are fees for the Discovery Center and Canal Boat Tours.",
+            "title": "Free Entry"
+          }
+        ],
+        "entrancePasses": [],
+        "directionsInfo": "To Augusta Canal Discovery Center (1450 Greene Street, Augusta, GA 30901): From I-20 Exit 200, turn left onto GA-104/Riverwatch Parkway (signs for Downtown Augusta). In approximately 4.5 miles, use the right lane to take the ramp to Downtown Augusta/Medical District. Continue straight onto Greene Street. Continue for approximately 0.4 miles. Enterprise Mill and the Discovery Center will be on your right.",
+        "directionsUrl": "http://augustacanal.com/directions.php",
+        "operatingHours": [
+          {
+            "exceptions": [
+              {
+                "exceptionHours": {
+                  "Wednesday": "9:30AM - 5:00PM",
+                  "Monday": "Closed",
+                  "Thursday": "9:30AM - 5:00PM",
+                  "Sunday": "Closed",
+                  "Tuesday": "9:30AM - 5:00PM",
+                  "Friday": "9:30AM - 5:00PM",
+                  "Saturday": "9:30AM - 5:00PM"
+                },
+                "startDate": "2020-07-01",
+                "name": "Summer Hours",
+                "endDate": "2020-08-31"
+              },
+              {
+                "exceptionHours": {
+                  "Wednesday": "9:30AM - 5:00PM",
+                  "Monday": "Closed",
+                  "Thursday": "9:30AM - 5:00PM",
+                  "Sunday": "Closed",
+                  "Tuesday": "9:30AM - 5:00PM",
+                  "Friday": "9:30AM - 5:00PM",
+                  "Saturday": "9:30AM - 5:00PM"
+                },
+                "startDate": "2020-12-01",
+                "name": "Winter Hours",
+                "endDate": "2021-03-31"
+              }
+            ],
+            "description": "1450 Greene Street \nAugusta, GA  30901",
+            "standardHours": {
+              "Wednesday": "9:30AM - 5:00PM",
+              "Monday": "9:30AM - 5:00PM",
+              "Thursday": "9:30AM - 5:00PM",
+              "Sunday": "1:00PM - 5:00PM",
+              "Tuesday": "9:30AM - 5:00PM",
+              "Friday": "9:30AM - 5:00PM",
+              "Saturday": "9:30AM - 5:00PM"
+            },
+            "name": "Augusta Canal Discovery Center"
+          }
+        ],
+        "addresses": [
+          {
+            "postalCode": "30901",
+            "city": "Augusta",
+            "stateCode": "GA",
+            "line1": "Augusta Canal National Heritage Area",
+            "type": "Physical",
+            "line3": "",
+            "line2": "1450 Greene Street, Suite 400"
+          },
+          {
+            "postalCode": "30901",
+            "city": "Augusta",
+            "stateCode": "GA",
+            "line1": "Augusta Canal National Heritage Area",
+            "type": "Mailing",
+            "line3": "",
+            "line2": "1450 Greene Street, Suite 400"
+          }
+        ],
+        "images": [
+          {
+            "credit": "NPS Photo",
+            "title": "Petersburg Boat",
+            "altText": "Petersburg Boat passes Sibley Mill and the chimney of Confederate States Powder Works along the Augu",
+            "caption": "Petersburg Boat passes Sibley Mill and the chimney of Confederate States Powder Works along the Augusta Canal National Heritage Area",
+            "url": "https://www.nps.gov/common/uploads/structured_data/17CB88D7-1DD8-B71B-0B176D86D21968E8.png"
+          }
+        ],
+        "weatherInfo": "The weather varies throughout the year and even throughout the day. Please check the National Weather Service information at http://www.weather.gov for forecast information.",
+        "name": "Augusta Canal",
+        "designation": "National Heritage Area"
+      },
+      "eatery": {
+        "businessName": "Hy's Steak House",
+        "description": "There are older restaurants, and places with wackier backstories (House Without a Key was in the first Charlie Chan novel!), but -- for nearly 40 years -- everyone knows Hy's. The classic steakhouse is known for cooking its meats over native kiawe wood, so you can't really go wrong trying the roast rack of lamb seared over the hot charcoal, paired up with a Caesar prepared tableside. It may not have been in a book, but pretty soon these guys will be writing their own.",
+        "state": "HI",
+        "city": "Honolulu",
+        "id": 13,
+        "ameneties": {
+          "wheelchairAccessible": false,
+          "petFriendly": false,
+          "wifi": false,
+          "diaperFacility": true,
+          "playground": false,
+          "restrooms": true
+        }
+      },
+      "attraction": {
+        "id": 11,
+        "name": "White House Replica",
+        "state": "GA",
+        "city": "Atlanta",
+        "description": "Want to see the White House without having to go to D.C.? Consider traveling to Atlanta, where they have a replica three-quarters the size! The mini White House used to offer tours of its replica of the Oval Office and the Lincoln bedroom, but now it’s a private home.",
+        "ameneties": {
+          "souvenirs": false,
+          "restrooms": true
+        }
+      },
+      "date": 1600095153361,
+      "id": 13
     }
   ]
 }
