@@ -6,7 +6,7 @@ export const AttractionsHTML = (attractionObj) => {
     let souvenirsAvailable = ""
     let restroomsAvailable = ""
 
-    if (Array.isArray(attractionObj.ameneties) && attractionObj.ameneties.length)
+    if (attractionObj.ameneties.length !== 0)
         amenitiesAvailable = "<h4>Amenities:</h4>"
 
     if (attractionObj.ameneties.souvenirs === true) {
