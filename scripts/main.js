@@ -9,6 +9,7 @@ import { AttractionSelect } from "./attractions/AttractionSelect.js";
 import "./eateries/EateryList.js";
 import "./attractions/AttractionList.js";
 import "./parks/image/ParkImageComponent.js";
+import "./search/UserSearch.js"
 
 WeatherList();
 savedItinerary();
@@ -16,3 +17,4 @@ StateSelect();
 ActivitySelect();
 AttractionSelect();
 EaterySelect();
+
