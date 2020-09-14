@@ -2,12 +2,16 @@
 
 export const EateriesHTML = (eateryObj) => {
 
+    let eateriesAvailable = ""
     let wheelchairAvailable = ""
     let petAvailable = ""
     let wifiAvailable = ""
     let diaperAvailable = ""
     let playgroundAvailable = ""
     let restroomsAvailable = ""
+
+    if (Array.isArray(eateryObj.ameneties) && eateryObj.ameneties.length)
+        eateriesAvailable = "<h4>Amenities:</h4>"
 
     if (eateryObj.ameneties.wheelchairAccessible === true) {
         wheelchairAvailable = "<li>Wheelchair Accessible</li>"
@@ -46,7 +50,7 @@ export const EateriesHTML = (eateryObj) => {
                 <h4>${eateryObj.businessName}</h4>
                 <p><strong>Location:</strong> ${eateryObj.city}, ${eateryObj.state}</p>
                 <p>${eateryObj.description}</p>
-                <h4>Amenities:</h4>
+                ${eateriesAvailable}
                 <ul class="yesNoContainer">
                     ${wheelchairAvailable}
                     ${petAvailable}
