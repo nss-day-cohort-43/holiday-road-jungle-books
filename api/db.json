@@ -500,22 +500,22 @@
     },
     {
       "park": {
-        "url": "https://www.nps.gov/ever/index.htm",
-        "fullName": "Everglades National Park",
-        "id": "5EA02193-276A-4037-B7DB-5765A56935FD",
-        "parkCode": "ever",
-        "description": "Everglades National Park protects an unparalleled landscape that provides important habitat for numerous rare and endangered species like the manatee, American crocodile, and the elusive Florida panther. An international treasure as well - a World Heritage Site, International Biosphere Reserve, a Wetland of International Importance, and a specially protected area under the Cartagena Treaty.",
-        "latitude": "25.37294225",
-        "longitude": "-80.88200301",
-        "latLong": "lat:25.37294225, long:-80.88200301",
+        "url": "https://www.nps.gov/liri/index.htm",
+        "fullName": "Little River Canyon National Preserve",
+        "id": "C03CF86E-BFB5-470E-AFF3-C1798A61FFE5",
+        "parkCode": "liri",
+        "description": "Little River is unique because it flows for most of its length atop Lookout Mountain in northeast Alabama. Forested uplands, waterfalls, canyon rims and bluffs, pools, boulders, and sandstone cliffs offer settings for a variety of recreational activities. Natural resources and cultural heritage come together to tell the story of the Preserve, a special place in the Southern Appalachians.",
+        "latitude": "34.41461863",
+        "longitude": "-85.61734327",
+        "latLong": "lat:34.41461863, long:-85.61734327",
         "activities": [
           {
-            "id": "13A57703-BB1A-41A2-94B8-53B692EB7238",
-            "name": "Astronomy"
+            "id": "5F723BAD-7359-48FC-98FA-631592256E35",
+            "name": "Auto and ATV"
           },
           {
-            "id": "D37A0003-8317-4F04-8FB0-4CF0A272E195",
-            "name": "Stargazing"
+            "id": "0B4A5320-216D-451A-9990-626E1D5ACE28",
+            "name": "Scenic Driving"
           },
           {
             "id": "7CE6E935-F839-4FEC-A63E-052B1DEF39D2",
@@ -526,36 +526,12 @@
             "name": "Road Biking"
           },
           {
-            "id": "071BA73C-1D3C-46D4-A53C-00D5602F7F0E",
-            "name": "Boating"
+            "id": "B12FAAB9-713F-4B38-83E4-A273F5A43C77",
+            "name": "Climbing"
           },
           {
-            "id": "A510F02B-8938-4679-A4F9-76580BCAE9C7",
-            "name": "Boat Tour"
-          },
-          {
-            "id": "A59947B7-3376-49B4-AD02-C0423E08C5F7",
-            "name": "Camping"
-          },
-          {
-            "id": "4A58AF13-E8FB-4530-B41A-97DF0B0C77B7",
-            "name": "Backcountry Camping"
-          },
-          {
-            "id": "907E8125-15E4-483C-8EAD-B9FA1E85C6F8",
-            "name": "Canoe or Kayak Camping"
-          },
-          {
-            "id": "C5C5971C-E325-4CEB-8C81-EE49A881DF17",
-            "name": "RV Camping"
-          },
-          {
-            "id": "C11D3746-5063-4BD0-B245-7178D1AD866C",
-            "name": "Compass and GPS"
-          },
-          {
-            "id": "CA3641A0-FADC-497F-B036-3FE426D0DDCC",
-            "name": "Geocaching"
+            "id": "87D3B1CD-3903-4561-ABB1-2DD870C43F2F",
+            "name": "Rock Climbing"
           },
           {
             "id": "AE42B46C-E4B7-4889-A122-08FE180371AE",
@@ -566,8 +542,8 @@
             "name": "Freshwater Fishing"
           },
           {
-            "id": "17411C8D-5769-4D0F-ABD1-52ED03840C18",
-            "name": "Saltwater Fishing"
+            "id": "9BC03FAF-28F1-4609-BF6F-643F58071AED",
+            "name": "Fly Fishing"
           },
           {
             "id": "1DFACD97-1B9C-4F5A-80F2-05593604799E",
@@ -576,38 +552,6 @@
           {
             "id": "C6D3230A-2CEA-4AFE-BFF3-DC1E2C2C4BB4",
             "name": "Picnicking"
-          },
-          {
-            "id": "B33DC9B6-0B7D-4322-BAD7-A13A34C584A3",
-            "name": "Guided Tours"
-          },
-          {
-            "id": "A0631906-9672-4583-91DE-113B93DB6B6E",
-            "name": "Self-Guided Tours - Walking"
-          },
-          {
-            "id": "C7D5A145-F8EB-4C37-9E92-2F6C6206B196",
-            "name": "Self-Guided Tours - Auto"
-          },
-          {
-            "id": "3DE599E2-22ED-40BF-B383-EDA073563C1E",
-            "name": "Bus/Shuttle Guided Tour"
-          },
-          {
-            "id": "5A241412-0CFB-497A-9B5F-0AB8C03CDE72",
-            "name": "Boat Tour"
-          },
-          {
-            "id": "42FD78B9-2B90-4AA9-BC43-F10E9FEA8B5A",
-            "name": "Hands-On"
-          },
-          {
-            "id": "31F88DA6-696F-441F-89CF-D7B1415C4CB9",
-            "name": "Citizen Science"
-          },
-          {
-            "id": "9456A40A-AF75-4AD3-8BE1-79C4A7DBEDFC",
-            "name": "Volunteer Vacation"
           },
           {
             "id": "BFF8C027-7C8F-480B-A5F8-CD8CE490BFBA",
@@ -622,12 +566,44 @@
             "name": "Front-Country Hiking"
           },
           {
+            "id": "0307955A-B65C-4CE4-A780-EB36BAAADF0B",
+            "name": "Horse Trekking"
+          },
+          {
+            "id": "1886DA47-0AEC-4568-B9C2-8E9BC316AAAC",
+            "name": "Horseback Riding"
+          },
+          {
+            "id": "8386EEAF-985F-4DE8-9037-CCF91975AC94",
+            "name": "Hunting and Gathering"
+          },
+          {
+            "id": "25559F45-F162-4B8B-BEC2-B341034A2AF4",
+            "name": "Hunting"
+          },
+          {
             "id": "4D224BCA-C127-408B-AC75-A51563C42411",
             "name": "Paddling"
           },
           {
+            "id": "21DB3AFC-8AAC-4665-BC1F-7198C0685983",
+            "name": "Canoeing"
+          },
+          {
+            "id": "F353A9ED-4A08-456E-8DEC-E61974D0FEB6",
+            "name": "Kayaking"
+          },
+          {
             "id": "DF4A35E0-7983-4A3E-BC47-F37B872B0F25",
             "name": "Junior Ranger Program"
+          },
+          {
+            "id": "587BB2D3-EC35-41B2-B3F7-A39E2B088AEE",
+            "name": "Swimming"
+          },
+          {
+            "id": "82C3230F-6F87-452C-A01B-F8458867B26A",
+            "name": "Freshwater Swimming"
           },
           {
             "id": "0B685688-3405-4E2A-ABBA-E3069492EC50",
@@ -636,144 +612,36 @@
           {
             "id": "5A2C91D1-50EC-4B24-8BED-A2E11A1892DF",
             "name": "Birdwatching"
-          },
-          {
-            "id": "0C0D142F-06B5-4BE1-8B44-491B90F93DEB",
-            "name": "Park Film"
-          },
-          {
-            "id": "C8F98B28-3C10-41AE-AA99-092B3B398C43",
-            "name": "Museum Exhibits"
-          },
-          {
-            "id": "24380E3F-AD9D-4E38-BF13-C8EEB21893E7",
-            "name": "Shopping"
-          },
-          {
-            "id": "467DC8B8-0B7D-436D-A026-80A22358F615",
-            "name": "Bookstore and Park Store"
           }
         ],
         "topics": [
           {
-            "id": "69693007-2DF2-4EDE-BB3B-A25EBA72BDF5",
-            "name": "Architecture and Building"
-          },
-          {
-            "id": "7F81A0CB-B91F-4896-B9A5-41BE9A54A27B",
-            "name": "Archeology"
-          },
-          {
-            "id": "00F3C3F9-2D67-4802-81AE-CCEA5D3BA370",
-            "name": "Arts"
-          },
-          {
-            "id": "7F12224B-217A-4B07-A4A2-636B1CE7F221",
-            "name": "Colonization and Settlement"
-          },
-          {
-            "id": "3B0D607D-9933-425A-BFA0-21529AC4734C",
-            "name": "Military"
-          },
-          {
-            "id": "B145FAB8-5462-4FE2-964E-464D3A5E7F96",
-            "name": "Artillery"
-          },
-          {
-            "id": "97CCB419-196C-4B95-BB3A-621458F78415",
-            "name": "US Army"
-          },
-          {
-            "id": "2ACF7D12-91EA-4981-A1B7-AD0A186B6800",
-            "name": "Armories"
-          },
-          {
-            "id": "A1BAF33E-EA84-4608-A888-4CEE9541F027",
-            "name": "Native American Heritage"
-          },
-          {
-            "id": "3CDB67A9-1EAC-408D-88EC-F26FA35E90AF",
-            "name": "Schools and Education"
-          },
-          {
-            "id": "40C0866A-3890-41A4-84CA-5935DEE181AE",
-            "name": "Social Movements"
-          },
-          {
-            "id": "4C0EBDE7-EB73-4252-84D9-0650974EC3E5",
-            "name": "Conservation Movement"
-          },
-          {
-            "id": "27BF8807-54EA-4A3D-B073-AA7AA361CD7E",
-            "name": "Wars and Conflicts"
-          },
-          {
-            "id": "A764E57D-9925-4855-8D66-C60357946FC3",
-            "name": "Cold War"
-          },
-          {
             "id": "0D00073E-18C3-46E5-8727-2F87B112DDC6",
             "name": "Animals"
-          },
-          {
-            "id": "921D1471-5F6B-47D5-918D-389E7106083A",
-            "name": "Alligators or Crocodiles"
           },
           {
             "id": "957EF2BD-AC6C-4B7B-BD9A-87593ADC6691",
             "name": "Birds"
           },
           {
-            "id": "2539614A-9646-446E-8251-34D3AAE068FA",
-            "name": "Cats (wild)"
-          },
-          {
             "id": "1608649A-E7D7-4529-BD83-074C90F9FB68",
             "name": "Fish"
           },
           {
-            "id": "393F60FB-80D6-46F7-B0FB-BBF3C90F59FD",
-            "name": "Tortoises and Turtles"
-          },
-          {
-            "id": "4DC11D06-00F1-4A01-81D0-89CCCCE4FF50",
-            "name": "Climate Change"
-          },
-          {
-            "id": "46FC5CBD-9AD5-48F1-B4DA-1357031B1D2E",
-            "name": "Coasts, Islands and Atolls"
-          },
-          {
-            "id": "F79C1242-80FF-40F0-A0C1-5FFCBA172EC0",
-            "name": "Estuaries and Mangroves"
+            "id": "BCE3ACBE-7871-495B-AEA3-5E19BC482405",
+            "name": "Canyons and Canyonlands"
           },
           {
             "id": "04A39AB8-DD02-432F-AE5F-BA1267D41A0D",
             "name": "Fire"
           },
           {
-            "id": "F0F97E32-2F29-41B4-AF98-9FBE8DAB36B1",
-            "name": "Geology"
-          },
-          {
-            "id": "94262026-92F5-48E9-90EF-01CEAEFBA4FF",
-            "name": "Grasslands"
-          },
-          {
-            "id": "1AEDC86F-5792-487F-8CDF-9E92CAB97ACE",
-            "name": "Prairies"
+            "id": "101F4D51-F99D-45A6-BBB6-CD481E5FACED",
+            "name": "Mountains"
           },
           {
             "id": "F8C2FE93-DEB3-4B12-9A87-913E3E6B448D",
             "name": "Natural Sounds"
-          },
-          {
-            "id": "A7359FC4-DAD8-45F5-AF15-7FF62F816ED3",
-            "name": "Night Sky"
-          },
-          {
-            "id": "0E6D8503-CB65-467F-BCD6-C6D9E28A4E0B",
-            "name": "Oceans"
           },
           {
             "id": "A155238F-0DD2-4610-9B87-05FCE1C59283",
@@ -782,14 +650,6 @@
           {
             "id": "9C9FCBB6-360B-4743-8155-6F9341CBE01B",
             "name": "Scenic Views"
-          },
-          {
-            "id": "5BE55D7F-BDB6-4E3D-AC35-2D8EBB974417",
-            "name": "Trails"
-          },
-          {
-            "id": "596BAA6D-F66B-4348-8433-FEFF35A8005E",
-            "name": "Water Trails"
           },
           {
             "id": "78E4F4AC-AF97-435A-8C2C-7FB8D67516ED",
@@ -804,29 +664,25 @@
             "name": "Endangered"
           },
           {
-            "id": "1365C347-952C-475A-B755-731DD523C195",
-            "name": "Wetlands"
+            "id": "BA12B386-49EA-46B0-9121-FCACACC47538",
+            "name": "Watersheds"
           },
           {
-            "id": "FD0BA21A-5F69-4688-9D4B-856DA242DC78",
-            "name": "Marshes"
-          },
-          {
-            "id": "B85866E2-0897-4000-9040-605CA335804F",
-            "name": "Wilderness"
+            "id": "5ED826E0-76BB-47BB-87DD-E081A72B0A04",
+            "name": "Waterfalls"
           }
         ],
-        "states": "FL",
+        "states": "AL",
         "contacts": {
           "phoneNumbers": [
             {
-              "phoneNumber": "3052427700",
+              "phoneNumber": "2568459605",
               "description": "",
-              "extension": "",
+              "extension": "201",
               "type": "Voice"
             },
             {
-              "phoneNumber": "3052427728",
+              "phoneNumber": "2569979129",
               "description": "",
               "extension": "",
               "type": "Fax"
@@ -835,145 +691,129 @@
           "emailAddresses": [
             {
               "description": "",
-              "emailAddress": "ever_information@nps.gov"
+              "emailAddress": "liri_information@nps.gov"
             }
           ]
         },
         "entranceFees": [
           {
-            "cost": "25.0000",
-            "description": "The entrance fee to the Everglades National Park is good for 7 consecutive days starting from the day of purchase.",
-            "title": "Everglades National Park Entrance Fee- Per vehicle"
-          },
-          {
-            "cost": "8.0000",
-            "description": "The Everglades National Park charges an entry fee per person when an individual enters the main entrance station through a bike or by walking. The entrance fee is good for 7 consecutive days starting from the day of purchase. Individuals 16 years old and younger, are admitted free of charge.",
-            "title": "Everglades National Park Entrance Fee- Per Person/Cyclist"
-          },
-          {
-            "cost": "20.0000",
-            "description": "The Everglades National Park entrance fee for motorcycles is good for 7 consecutive days starting from the day of purchase.",
-            "title": "Everglades National Park Entrance Fee- Per Motorcycle"
-          },
-          {
-            "cost": "200.0000",
-            "description": "Entrance fees to the Everglades National Park are charged based on the seating capacity of the vehicle.\n\nMotorcoach (26 or more passengers)",
-            "title": "Everglades National Park Entrance Fee-  Commercial Motorcoach"
-          },
-          {
-            "cost": "100.0000",
-            "description": "Entrance fees to the Everglades National Park are charged based on the seating capacity of the vehicle.\n\nMinibus (16-25 passengers)",
-            "title": "Everglades National Park Entrance Fee- Commercial Minibus"
-          },
-          {
-            "cost": "75.0000",
-            "description": "Entrance fees to the Everglades National Park are charged based on the seating capacity of the vehicle.\n\nVan (7- 15 passengers)",
-            "title": "Everglades National Park Entrance Fee- Commercial Van"
-          },
-          {
-            "cost": "25.0000",
-            "description": "Entrance fees to the Everglades National Park are charged based on the seating capacity of the vehicle.\n\nSedan (1-6 passengers: $8 per person)",
-            "title": "Everglades National Park Entrance Fee- Commercial Sedan"
+            "cost": "15.0000",
+            "description": "Located near Cedar Bluff, Alabama, the Canyon Mouth Park area features amenities including a paved parking lot, restrooms with sinks and flush toilets, picnic tables, grills, lots of shade, close to the water, and a brand new playground.\n\nFEES ARE CURRENTLY SUSPENDED\n\nA seven-day pass costs $15 and an annual pass costs $35 and is valid for the calendar year. \n\nA machine is available at the entrance to Canyon Mouth Park should no park personnel be present in the booth. The machine takes cash only.",
+            "title": "Canyon Mouth Park picnic area"
           }
         ],
         "entrancePasses": [
           {
-            "cost": "40.0000",
-            "description": "The Annual Pass for the Everglades National Park is valid for 12 months starting from the day of purchase and is good for unlimited visits to the park during this period. These passes can be purchased at the Homestead and Shark Valley entrance stations or the Gulf Coast and Flamingo Visitor Centers. You can also purchase the senior park pass or pass for entry into all national parks at these locations.",
-            "title": "Everglades National Park Annual Pass"
+            "cost": "35.0000",
+            "description": "Give the user unlimited access during operating hours during a calendar year (January - December). Located near Cedar Bluff, Alabama. Instead of paying $15 per vehicle, purchase the pass for a year for $35. Amenities included paved parking lot, restrooms, picnic tables, grills, lots of shade, close to the water, and a playground. \n\nAmerica the Beautiful passes are also valid at Canyon Mouth Park and will allow access using the fee machine or when park staff are present at the booth.",
+            "title": "Canyon Mouth Annual Pass"
           }
         ],
-        "directionsInfo": "Directions to Ernest Coe Visitor Center 40001 State Road 9336, Homestead, FL 33034 Visitors coming from the Miami area and points north should take the Florida Turnpike (Route 821) south until it ends merging with U.S. 1 at Florida City. Turn right at the first traffic light onto Palm Drive (State Road 9336/SW 344th St.) and follow the signs to the park. Visitors driving north from the Florida Keys should turn left on Palm Drive in Florida City and follow the signs to the park.",
-        "directionsUrl": "http://www.nps.gov/ever/planyourvisit/directions.htm",
+        "directionsInfo": "GPS Address: 472 AL Hwy 35, Fort Payne, AL 35967. Our address was updated by 911 and some GPS units will send you to an incorrect address. Please use this address for GPS units.",
+        "directionsUrl": "http://www.nps.gov/liri/planyourvisit/directions.htm",
         "operatingHours": [
           {
             "exceptions": [],
-            "description": "Everglades National Park is open 7 days a week, 24 hours a day. Park entrance is always open but staffed from 8:00 a.m. to 4:30 p.m.",
+            "description": "The main park is open during daylight hours every day including holidays.",
             "standardHours": {
-              "Wednesday": "Closes at 12:00PM",
-              "Monday": "Closes at 12:00PM",
-              "Thursday": "Closes at 12:00PM",
-              "Sunday": "Closes at 12:00PM",
-              "Tuesday": "Closes at 12:00PM",
-              "Friday": "Closes at 12:00PM",
-              "Saturday": "Closes at 12:00PM"
+              "Wednesday": "Sunrise to Sunset",
+              "Monday": "Sunrise to Sunset",
+              "Thursday": "Sunrise to Sunset",
+              "Sunday": "Sunrise to Sunset",
+              "Tuesday": "Sunrise to Sunset",
+              "Friday": "Sunrise to Sunset",
+              "Saturday": "Sunrise to Sunset"
             },
-            "name": "Everglades National Park"
+            "name": "Little River Canyon National Preserve"
+          },
+          {
+            "exceptions": [],
+            "description": "Summer Hours - Open Daily from 8:00 AM to 7:00 PM (CST)\nFall/Spring Hours - Open Daily from 8:00 AM to 6:00 PM (CST) - begins March 8, 2020 \nWinter Hours - Open Daily from 8:00 AM to 5:00 PM (CST)",
+            "standardHours": {
+              "Wednesday": "8:00AM - 6:00PM",
+              "Monday": "8:00AM - 6:00PM",
+              "Thursday": "8:00AM - 6:00PM",
+              "Sunday": "8:00AM - 6:00PM",
+              "Tuesday": "8:00AM - 6:00PM",
+              "Friday": "8:00AM - 6:00PM",
+              "Saturday": "8:00PM - 6:00PM"
+            },
+            "name": "Canyon Mouth Park"
           }
         ],
         "addresses": [
           {
-            "postalCode": "33034",
-            "city": "Homestead",
-            "stateCode": "FL",
-            "line1": "40001 State Road 9336",
+            "postalCode": "35967",
+            "city": "Fort Payne",
+            "stateCode": "AL",
+            "line1": "4322 Little River Trail NE",
             "type": "Physical",
             "line3": "",
-            "line2": ""
+            "line2": "Suite 100"
           },
           {
-            "postalCode": "33034",
-            "city": "Homestead",
-            "stateCode": "FL",
-            "line1": "40001 State Road 9336",
+            "postalCode": "35967",
+            "city": "Fort Payne",
+            "stateCode": "AL",
+            "line1": "4322 Little River Trail NE",
             "type": "Mailing",
             "line3": "",
-            "line2": ""
+            "line2": "Suite 100"
           }
         ],
         "images": [
           {
             "credit": "NPS Photo",
-            "title": "Nine Mile Pond",
-            "altText": "Two canoes at Nine Mile Pond during sunset.",
-            "caption": "A meeting ground of marsh and mangrove environments. You may see alligators, wading birds, turtles, and fish.",
-            "url": "https://www.nps.gov/common/uploads/structured_data/3C854681-1DD8-B71B-0BA4F6D9379336DF.jpg"
+            "title": "Little River Canyon in the Fall",
+            "altText": "Fall Season in the Canyon",
+            "caption": "Little River Canyon in the Fall",
+            "url": "https://www.nps.gov/common/uploads/structured_data/3C870F95-1DD8-B71B-0B1A89976F5B3292.jpg"
           },
           {
             "credit": "NPS Photo",
-            "title": "American Alligator",
-            "altText": "An American Alligator high walks the Anhinga Trail.",
-            "caption": "An American Alligator high walks the Anhinga Trail.",
-            "url": "https://www.nps.gov/common/uploads/structured_data/3C8547ED-1DD8-B71B-0B596F29F0A9A60B.jpg"
+            "title": "Little River Falls in the Spring",
+            "altText": "Little River Falls in the Spring, located on AL Hwy 35",
+            "caption": "Little River Falls in the Spring",
+            "url": "https://www.nps.gov/common/uploads/structured_data/3C871122-1DD8-B71B-0BA3CC6A7CFE8F33.jpg"
           },
           {
             "credit": "NPS Photo",
-            "title": "Shark Valley Tram and Bicycle Road",
-            "altText": "Two visitors bike along the road in Shark Valley.",
-            "caption": "Biking is a great way to experience the quiet beauty of the Everglades.",
-            "url": "https://www.nps.gov/common/uploads/structured_data/3C85E60F-1DD8-B71B-0BAB4F7583E96025.jpg"
+            "title": "Little River Falls in the Fall",
+            "altText": "Little River Falls in the Fall, located on AL Hwy 35",
+            "caption": "Little River Falls in the Fall",
+            "url": "https://www.nps.gov/common/uploads/structured_data/3C871272-1DD8-B71B-0BAB8ECC34CDFAB1.jpg"
           },
           {
             "credit": "NPS Photo",
-            "title": "Transition from Sawgrass to Florida Bay",
-            "altText": "An aerial view of the landscape transition from Sawgrass to Florida Bay.",
-            "caption": "An aerial view of the landscape transition from Sawgrass to Florida Bay.",
-            "url": "https://www.nps.gov/common/uploads/structured_data/3C85E70B-1DD8-B71B-0B7C75649CCDB907.jpg"
+            "title": "Scenic Drive (AL Hwy 176) in the Fall",
+            "altText": "Scenic Driver (AL Hwy 176) in the Fall",
+            "caption": "Scenic Drive (AL Hwy 176) in the Fall",
+            "url": "https://www.nps.gov/common/uploads/structured_data/3C8715EF-1DD8-B71B-0BB9222FFF98A466.jpg"
           },
           {
             "credit": "NPS Photo",
-            "title": "Camping at Long Pine Key",
-            "altText": "Three tents are put up along the Long Pine Key campsite.",
-            "caption": "Long Pine Key Campground is open seasonally from November through May. It is located seven miles (11 km) from the main entrance, just off the main road.",
-            "url": "https://www.nps.gov/common/uploads/structured_data/3C85F532-1DD8-B71B-0BFC5BB51D8AB675.jpg"
+            "title": "DeSoto Scout Trail Bridge",
+            "altText": "DeSoto Scout Trail Bridge located in the Backcountry Area",
+            "caption": "Take a hike along the DeSoto Scout Trail",
+            "url": "https://www.nps.gov/common/uploads/structured_data/3C871B98-1DD8-B71B-0B9503B9A40341DA.jpg"
           }
         ],
-        "weatherInfo": "The climate in Florida is known to be mild and sunny.The average annual temperatures for South Florida and the Keys range from 74° to 77°F (23° to 25°C). There are two seasons at the Everglades National Park: the wet season and the dry season. The wet season runs from Mid-May to November and the dry season runs from December to mid-May.",
-        "name": "Everglades",
-        "designation": "National Park"
+        "weatherInfo": "The weather in Fort Payne, Alabama is mild. The average temperature in the winter is in the 20's. The average summer temperature is in the high 80's. We receive about 55 inches of rain each year. Snowfall varies, but only lasts a few days per event.",
+        "name": "Little River Canyon",
+        "designation": "National Preserve"
       },
       "eatery": {
-        "businessName": "Occidental Grill & Seafood",
-        "description": "DC is the country's seat of power -- I know this because I've seen one and a half seasons of House of Cards -- and Occidental is where the power goes out for a rib-eye or scallops. And it's been this way since the beginning, with everyone from Amelia Earhart to multiple presidents dining here. While the original was demolished in the '70s, it deserves a spot on this list because it reopened in the '80s super close to its original location and with its rep intact, as both of the presidents named Bush have since partaken of its steakhouse fare.",
-        "state": "DC",
-        "city": "Washington",
-        "id": 10,
+        "businessName": "Buckhorn Exchange",
+        "description": "The Colorado dining scene has come a long way since the Buckhorn Exchange opened. There's practically a brewery and a buzzed-about restaurant on every street corner in Denver these days. But the Buckhorn Exchange is a glimpse into what Colorado restaurants used to be famous for -- giant portions of steak that will feed you, your friends, and your friends' friends. Beyond the steak, there's also the opportunity to eat practically every animal that was on Noah's ark. And eating here puts you in good company, as Teddy Roosevelt and Eisenhower both dined here.",
+        "state": "CO",
+        "city": "Denver",
+        "id": 7,
         "ameneties": {
-          "wheelchairAccessible": false,
+          "wheelchairAccessible": true,
           "petFriendly": false,
           "wifi": false,
           "diaperFacility": true,
-          "playground": true,
+          "playground": false,
           "restrooms": true
         }
       },
@@ -988,39 +828,8 @@
           "restrooms": false
         }
       },
-      "date": 1600107694909,
+      "date": 1600111114835,
       "id": 14
-    },
-    {
-      "park": {},
-      "eatery": {
-        "businessName": "The Cozy Inn",
-        "description": "You know who's sold a lot of sliders? White Castle. That company is also a Kansas product, like Raef LaFrentz. Yes, that Raef LaFrentz. But while Salina's famed slider shop doesn't have nearly as many locations as Harold and Kumar's favorite fast-food joint, The Cozy Inn stays popular to this day with its no-frills meat sandwiches topped with cooked onions and served on steamed buns.",
-        "state": "KS",
-        "city": "Salina",
-        "id": 18,
-        "ameneties": {
-          "wheelchairAccessible": true,
-          "petFriendly": false,
-          "wifi": false,
-          "diaperFacility": true,
-          "playground": true,
-          "restrooms": true
-        }
-      },
-      "attraction": {
-        "id": 13,
-        "name": "Giant Abraham Lincoln",
-        "state": "ID",
-        "city": "Boise",
-        "description": "You can take a funny picture with an absolutely enormous Abraham Lincoln in Boise, Idaho. People have enjoyed posing with this comically large statute since its unveiling in 2010.",
-        "ameneties": {
-          "souvenirs": false,
-          "restrooms": false
-        }
-      },
-      "date": 1600107721763,
-      "id": 15
     }
   ]
 }

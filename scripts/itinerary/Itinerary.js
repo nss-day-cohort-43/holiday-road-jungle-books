@@ -39,7 +39,7 @@ export const ItineraryHTML = (anObject) => {
   })
 
   //adds HTML to DOM for each saved itinerary 
-    return `
+  return `
         <section class="card-itinerary">
             <p class="card-title">${anObject.park.fullName}</p>
             <div class="park-extras"><a href="#" id="parkHours--${anObject.park.id}" class="more-info-btn"> Hours </a> • <a href="#" id="parkFees--${anObject.park.id}" class="more-info-btn"> Entrance Fees </a> • <a href="#" id="parkActivities--${anObject.park.id}" class="more-info-btn">Activities Available</a> • <a href="#" id="parkInfo--${anObject.park.id}" class="more-info-btn">More Info</a></div>

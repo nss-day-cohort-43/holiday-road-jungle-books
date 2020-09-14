@@ -16,17 +16,11 @@ import { useMatchingEatery } from "../eateries/EateryList.js";
 import { useMatchingAttraction } from "../attractions/AttractionList.js";
 
 let chosenPark = {};
+let checkPark = (obj)=> {
+return Object.keys(obj).length;
+}
 let eateryChosen = {};
 let attractionChosen = {};
-
-export const saveButtonEnable = () => {
-  const saveBtn = document.querySelector(".itinerarySaveBtn")
-  if (chosenPark === {} || eateryChosen === {} || attractionChosen === {} ) {
-      saveBtn.disabled = true
-  } else {
-    saveBtn.disabled = false
-  }
-}
 
 
 const elementTarget = document.querySelector(".savedItinerary");
@@ -42,7 +36,7 @@ eventHub.addEventListener("click", (clickEvent) => {
     let attractionObject = chosenAttraction[0];
     attractionChosen = attractionObject;    
 
-    if (chosenPark != 0 && chosenAttraction != 0 && chosenEatery != 0) {
+    if (checkPark(chosenPark) !== 0 && chosenAttraction !== {} && chosenEatery !== {}) {
       const newItinerary = {
         park: chosenPark,
         eatery: eateryChosen,
