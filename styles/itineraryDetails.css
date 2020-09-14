@@ -16,6 +16,7 @@
 .attraction--card button {
     height: 2em;
     margin-left: 10px;
+    border: none;
 }
 
 .eatery--card {
@@ -27,6 +28,7 @@
 .eatery--card button {
     height: 2em;
     margin-left: 10px;
+    border: none;
 }
 
 .modal {
