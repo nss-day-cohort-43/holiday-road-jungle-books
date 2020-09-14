@@ -3,6 +3,7 @@ header {
     flex-flow: row nowrap;
     justify-content: space-between;
     background-color: #347893;
+    padding: 0.5em;
 }
 
 #logo-image {
