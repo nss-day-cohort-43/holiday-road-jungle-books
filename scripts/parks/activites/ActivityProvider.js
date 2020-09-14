@@ -17,7 +17,7 @@ export const useActivities = () => {
 const eventHub = document.querySelector('.container')
 
 export const dispatchActivityEvent = (activity, state) => {
-    const activityChosenEvent = new CustomEvent('activityChosen', {
+    const activityChosenEvent = new CustomEvent('parkReady', {
         detail : {
             activityID: activity,
             stateCode: state

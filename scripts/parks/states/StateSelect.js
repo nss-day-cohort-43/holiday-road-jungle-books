@@ -7,7 +7,7 @@ export const StateSelect = () => {
     //render states selector with all the states as options
     const contentTarget = document.querySelector('.statesDropdownContainer')
     contentTarget.innerHTML = `
-        <select class="statesDropdown">
+        <select class="statesDropdown select-css">
             <option value='0'>Please select a state...</option>
             ${states.map(state => {
                 return `<option value='${state}'>${state}</option>`
@@ -17,7 +17,8 @@ export const StateSelect = () => {
     //listen for change and dispatch custom event
     eventHub.addEventListener('change', event => {
         if(event.target.classList.contains('statesDropdown')){
-            dispatchStateEvent(event.target.value)
+            const activtyId = document.querySelector('.activitiesDropdown').value
+            dispatchStateEvent(event.target.value, activtyId)
         }
     })
 }
