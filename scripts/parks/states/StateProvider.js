@@ -9,7 +9,7 @@ const eventHub = document.querySelector('.container')
 
 //dispatches an event with the chosen state
 export const dispatchStateEvent = (state, activity) => {
-    const stateChosenEvent = new CustomEvent('stateChosen', {
+    const stateChosenEvent = new CustomEvent('parkReady', {
         detail: {
             stateCode: state,
             activityID: activity
