@@ -7,7 +7,7 @@ export const StateSelect = () => {
     //render states selector with all the states as options
     const contentTarget = document.querySelector('.statesDropdownContainer')
     contentTarget.innerHTML = `
-        <select class="statesDropdown">
+        <select class="statesDropdown select-css">
             <option value='0'>Please select a state...</option>
             ${states.map(state => {
                 return `<option value='${state}'>${state}</option>`

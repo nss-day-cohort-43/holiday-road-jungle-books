@@ -12,11 +12,11 @@ export const ActivitySelect = () => {
             //render select component with all the activities
             let contentTarget = document.querySelector('.activitiesDropdownContainer')
             contentTarget.innerHTML = `
-                <select class="activitiesDropdown">
+                <select class="activitiesDropdown select-css">
                     <option value='0'>Please select an activity...</option>
                     ${activities.map(activity => {
                         return `<option value="${activity.id}">${activity.name}</option>`
-                    }).sort().join("")}
+                    }).join("")}
                 </select>
             `
             eventHub.addEventListener('change', event => {
