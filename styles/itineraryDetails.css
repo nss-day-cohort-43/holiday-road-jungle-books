@@ -18,6 +18,8 @@
     height: 2em;
     margin-left: 10px;
     border: none;
+    color: white;
+    background-color: #347893;
 }
 
 .eatery--card {
@@ -30,6 +32,8 @@
     height: 2em;
     margin-left: 10px;
     border: none;
+    color: white;
+    background-color: #347893;
 }
 
 .modal {
@@ -78,7 +82,7 @@
   .yesNoContainer li {
       list-style-type: none;
       color: white;
-      background-color: slategray;
+      background-color: #699CB3;
       padding: 10px;
       margin: 10px 10px 0 0;
   }
@@ -88,6 +92,7 @@
     color: darkgray; 
     font-size: 24px;  
     font-weight: bold;
+    cursor: pointer;
   }
 
   .close-btn:hover {
