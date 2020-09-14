@@ -23,4 +23,5 @@
 .itinerarySaveBtn {
     height: 2em;
     margin: 50px 0 0 auto; 
+    border: none;
 }
