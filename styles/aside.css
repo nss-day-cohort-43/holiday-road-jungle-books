@@ -85,3 +85,7 @@ aside h3 {
 .card-itinerary h4, p {
   margin: 0;
 }
+
+.itinerarySaveBtn:disabled {
+  background-color: black;
+}
