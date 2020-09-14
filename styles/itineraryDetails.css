@@ -15,6 +15,7 @@
 }
 
 .attraction--card h2 {
+    font-size: 1.25em;
     color: white;
 }
 
@@ -33,6 +34,7 @@
 }
 
 .eatery--card h2 {
+    font-size: 1.25em;
     color: white;
 }
 
