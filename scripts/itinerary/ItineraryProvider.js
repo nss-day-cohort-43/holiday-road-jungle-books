@@ -13,10 +13,12 @@ export const getItinerary = () => {
       savedItineraryArray = parsedItineraries;
     });
 };
+
 export const useItinerary = () => {
   return savedItineraryArray.slice();
 };
 
+//event for save itinerary button in preview window
 const eventHub = document.querySelector(".container");
 
 const dispatchSaveEvent = () => {
