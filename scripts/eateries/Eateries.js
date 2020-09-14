@@ -2,7 +2,7 @@
 
 export const EateriesHTML = (eateryObj) => {
 
-    let eateriesAvailable = ""
+    let amenitiesAvailable = ""
     let wheelchairAvailable = ""
     let petAvailable = ""
     let wifiAvailable = ""
@@ -10,8 +10,11 @@ export const EateriesHTML = (eateryObj) => {
     let playgroundAvailable = ""
     let restroomsAvailable = ""
 
-    if (Array.isArray(eateryObj.ameneties) && eateryObj.ameneties.length)
-        eateriesAvailable = "<h4>Amenities:</h4>"
+    let chosenEatery = eateryObj.ameneties
+
+    if (Object.values(chosenEatery).some(o => o === true)) {
+        amenitiesAvailable = "<h4>Amenities</h4>"
+    }
 
     if (eateryObj.ameneties.wheelchairAccessible === true) {
         wheelchairAvailable = "<li>Wheelchair Accessible</li>"
@@ -50,7 +53,7 @@ export const EateriesHTML = (eateryObj) => {
                 <h4>${eateryObj.businessName}</h4>
                 <p><strong>Location:</strong> ${eateryObj.city}, ${eateryObj.state}</p>
                 <p>${eateryObj.description}</p>
-                ${eateriesAvailable}
+                ${amenitiesAvailable}
                 <ul class="yesNoContainer">
                     ${wheelchairAvailable}
                     ${petAvailable}

@@ -8,7 +8,11 @@ export const AttractionsHTML = (attractionObj) => {
 
     let chosenAttraction = attractionObj.ameneties
 
-    console.log(chosenAttraction)
+    if (Object.values(chosenAttraction).some(o => o === true)) {
+        amenitiesAvailable = "<h4>Amenities</h4>"
+    }
+
+
 
     if (attractionObj.ameneties.souvenirs === true) {
         souvenirsAvailable = "<li>Souvenirs</li>"
