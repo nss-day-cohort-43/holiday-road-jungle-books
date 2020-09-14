@@ -8,7 +8,6 @@ import { EaterySelect } from "./eateries/EaterySelect.js";
 import { AttractionSelect } from "./attractions/AttractionSelect.js";
 import "./eateries/EateryList.js";
 import "./attractions/AttractionList.js";
-import "./parks/image/ParkImageComponent.js";
 
 WeatherList();
 savedItinerary();

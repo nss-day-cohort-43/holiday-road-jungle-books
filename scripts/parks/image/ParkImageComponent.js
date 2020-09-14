@@ -1,4 +1,4 @@
-// render the HTML onto the DOM
+// render the HTML/Image onto the DOM
 // listen for customEvent from ParkSelect
 import "../ParkList.js";
 import { usePark } from "../ParkProvider.js";
@@ -18,11 +18,9 @@ const render = () => {
       <div class="bottom-left"><p>${usePark().images[0].caption}</p></div>
     </div>`;
   } else {
-    //use default background-image
+    //use default background-image and add text
     contentTarget.innerHTML += `<div class="centered"><h2>No Image of ${
       usePark().fullName
     }</h2></div>`;
   }
 };
-
-//GOAL: Add loader until image is complete
