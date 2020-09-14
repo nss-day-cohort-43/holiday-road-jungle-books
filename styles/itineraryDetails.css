@@ -75,7 +75,12 @@
   }
 
   .modal-content h4 {
-      margin-bottom: 0;
+      margin-bottom: 10px;
+  }
+
+  .modal-content h5 {
+      font-size: medium;
+      margin: 25px 0 0 0;
   }
 
   .modal-content p {

@@ -13,7 +13,7 @@ export const EateriesHTML = (eateryObj) => {
     let chosenEatery = eateryObj.ameneties
 
     if (Object.values(chosenEatery).some(o => o === true)) {
-        amenitiesAvailable = "<h4>Amenities</h4>"
+        amenitiesAvailable = "<h5>Amenities:</h5>"
     }
 
     if (eateryObj.ameneties.wheelchairAccessible === true) {

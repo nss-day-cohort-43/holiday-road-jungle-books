@@ -9,10 +9,8 @@ export const AttractionsHTML = (attractionObj) => {
     let chosenAttraction = attractionObj.ameneties
 
     if (Object.values(chosenAttraction).some(o => o === true)) {
-        amenitiesAvailable = "<h4>Amenities</h4>"
+        amenitiesAvailable = "<h5>Amenities:</h5>"
     }
-
-
 
     if (attractionObj.ameneties.souvenirs === true) {
         souvenirsAvailable = "<li>Souvenirs</li>"
@@ -26,6 +24,7 @@ export const AttractionsHTML = (attractionObj) => {
         <div class="attraction--card" id="attraction--${attractionObj.id}">
             <h2>${attractionObj.name}</h2>
             <button class="attraction--button" id="attraction-modal-btn">Details</button>
+            <button class="attraction--button attractionSaveBtn">Add to Itinerary</button>
         </div>
 
         <div class="modal attraction-modal" id="attraction-info--${attractionObj.id}">
