@@ -6,7 +6,7 @@ import { getAttractions, useAttractions } from "./AttractionProvider.js";
 import { AttractionsHTML, AttractionModal } from "./Attractions.js";
 
 const eventHub = document.querySelector(".container");
-let matchingAttraction;
+let matchingAttraction=[];
 
 eventHub.addEventListener("attractionChosen", (event) => {
   if ("attractionId" in event.detail) {

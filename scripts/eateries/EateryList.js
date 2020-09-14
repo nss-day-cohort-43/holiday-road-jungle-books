@@ -6,7 +6,7 @@ import { getEateries, useEateries } from "./EateryProvider.js";
 import { EateriesHTML, EaterModal } from "./Eateries.js";
 
 const eventHub = document.querySelector(".container");
-let matchingEatery;
+let matchingEatery=[];
 
 eventHub.addEventListener("eateryChosen", (event) => {
   if ("eateryId" in event.detail) {
