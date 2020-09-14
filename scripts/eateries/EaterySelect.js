@@ -22,12 +22,11 @@ eventHub.addEventListener("change", event => {
 
 const render = eateriesCollection => {
     contentTarget.innerHTML = `
-        <select class="dropdown" id="eaterySelect">
+        <select class="dropdown select-css" id="eaterySelect">
             <option value="0">Choose an Eatery</option>
-            ${
-        eateriesCollection.map(eateryObj => {
-            return `<option value="${eateryObj.businessName}">${eateryObj.businessName}</option>`
-        }).join("")
+            ${eateriesCollection.map(eateryObj => {
+        return `<option value="${eateryObj.businessName}">${eateryObj.businessName}</option>`
+    }).join("")
         }
         </select>
     `

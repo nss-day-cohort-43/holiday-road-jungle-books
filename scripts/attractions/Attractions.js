@@ -2,8 +2,8 @@
 
 export const AttractionsHTML = (attractionObj) => {
 
-    var souvenirsAvailable = ""
-    var restroomsAvailable = ""
+    let souvenirsAvailable = ""
+    let restroomsAvailable = ""
 
     if (attractionObj.ameneties.souvenirs === true) {
         souvenirsAvailable = "<li>Souvenirs</li>"
