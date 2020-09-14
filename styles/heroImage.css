@@ -8,11 +8,12 @@
   width: 100%;
   max-height: 700px;
   min-height: 700px;
-  background-image: url("../imgs/defaultPark.jpg");
+  background-image: #ffffff;
 }
 
 .heroImage {
   width: 100%;
+  min-height: 700px;
   max-height: 700px;
 }
 .centered {

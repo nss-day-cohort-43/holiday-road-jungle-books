@@ -5,6 +5,10 @@ import { usePark } from "../ParkProvider.js";
 const eventHub = document.querySelector(".container");
 const contentTarget = document.querySelector(".heroSection");
 
+//renders when page loads
+contentTarget.innerHTML = ` <div class="heroImageFull">
+<img class="heroImage" src="../../imgs/defaultPark.jpg"> alt="default image"`;
+
 eventHub.addEventListener("parkSelected", (event) => {
   render();
 });
@@ -19,8 +23,9 @@ const render = () => {
     </div>`;
   } else {
     //use default background-image and add text
-    contentTarget.innerHTML += `<div class="centered"><h2>No Image of ${
-      usePark().fullName
-    }</h2></div>`;
+    contentTarget.innerHTML = ` <div class="heroImageFull">
+    <img class="heroImage" src="../../imgs/defaultPark.jpg" alt="default image">
+    <div class="centered"><h2>No Image of ${usePark().fullName}</h2></div>
+    </div>`;
   }
 };
