@@ -30,7 +30,6 @@ eventHub.addEventListener("click", (clickEvent) => {
     let chosenAttraction = useMatchingAttraction();
     let attractionObject = chosenAttraction[0];
     const attractionChosen = attractionObject;
-    console.log("attraction chosen: ", attractionChosen)
 
     if (attractionChosen === "") {
       window.alert("please select an attraction");
