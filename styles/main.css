@@ -2,6 +2,7 @@
 @import "aside.css";
 @import "weather.css";
 @import "itineraryDetails.css";
+@import "heroImage.css"; 
 body {
   margin: 0;
 }
