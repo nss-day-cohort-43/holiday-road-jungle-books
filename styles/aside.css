@@ -1,6 +1,3 @@
-/* 
-    will need to link this to the main css file  
-*/
 @import url("https://fonts.googleapis.com/css2?family=Lato&family=Lobster&family=Montserrat&family=Open+Sans&family=Oswald&family=Roboto&display=swap");
 /*
 font-family: 'Lato', sans-serif;
@@ -13,7 +10,6 @@ font-family: 'Roboto', sans-serif;
 
 aside {
   background-color: #f9d8d2;
-  padding: 1em;
   flex-basis: 35%;
 }
 
@@ -23,25 +19,26 @@ aside h3 {
   font-family: "Lobster", cursive;
   font-size: 24px;
   letter-spacing: 1.5px;
-  width: 85%;
   margin: 0;
   padding: 1em;
+  text-align: center;
 }
 
 .savedItinerary p {
-  margin: 0;
-  padding: 0.2em;
+  font-size: 14px;
+  margin: 0.5em 0;
+  padding: 0.2em 0;
   font-family: "Lato", sans-serif;
 }
 
 .card-itinerary {
   padding: 0.33em;
-  margin: 0.75em;
+  /* margin: 0.75em; */
   border-bottom: 1px solid #699cb3;
 }
 
 .caption {
-  font-size: 12px;
+  font-size: 11px;
   opacity: 50%;
   margin-bottom: 0.7em;
 }
@@ -53,4 +50,38 @@ aside h3 {
   text-decoration: underline;
   font-weight: 600;
   font-family: "Oswald", sans-serif;
+}
+
+.more-info-btn {
+  color: #347893;
+  font-weight: bold;
+}
+
+.more-info-btn:hover {
+  color: black;
+}
+
+.iconContainer {
+  /* display: none; */
+  font-size: 10px;
+}
+
+.park-extras {
+  font-size: 10px;
+  color: #347893
+}
+
+.park-extras a {
+  color: #699cb3;
+  font-size: 10px;
+  padding: 0 8px;
+}
+
+.parkHours, .parkFees, .parkActivities, .parkInfo {
+  font-size: 10px;
+  padding: 5px 15px;
+}
+
+.card-itinerary h4, p {
+  margin: 0;
 }

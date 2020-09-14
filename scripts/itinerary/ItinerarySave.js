@@ -17,15 +17,19 @@ import { useMatchingAttraction } from "../attractions/AttractionList.js";
 
 const elementTarget = document.querySelector(".savedItinerary");
 const eventHub = document.querySelector(".container");
-
+//event creates a new saved itinerary in local database
 eventHub.addEventListener("click", (clickEvent) => {
   if (clickEvent.target.classList.contains("itinerarySaveBtn")) {
     let chosenPark = usePark();
+    
     let chosenEatery = useMatchingEatery();
+    let eateryObject = chosenEatery[0];
+    const eateryChosen = eateryObject;
+
+    
     let chosenAttraction = useMatchingAttraction();
-    const parkChosen = chosenPark.fullName;
-    const eateryChosen = chosenEatery[0].businessName;
-    const attractionChosen = chosenAttraction[0].name;
+    let attractionObject = chosenAttraction[0];
+    const attractionChosen = attractionObject;
 
     if (attractionChosen === "") {
       window.alert("please select an attraction");
@@ -33,7 +37,7 @@ eventHub.addEventListener("click", (clickEvent) => {
       window.alert("please select an eatery");
     } else {
       const newItinerary = {
-        park: parkChosen,
+        park: chosenPark,
         eatery: eateryChosen,
         attraction: attractionChosen,
         date: Date.now(),
