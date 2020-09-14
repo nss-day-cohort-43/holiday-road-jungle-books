@@ -12,10 +12,10 @@
     flex-flow: column wrap;
     align-content: flex-start;
     background-color: #699CB3;
-    padding: 50px; 
+    padding: 30px; 
 }
 
-.itineraryTitle h2 {
+.itineraryTitle h3 {
     margin: 0 0 25px 0;
     color: white;
 }
@@ -40,4 +40,11 @@
     border: none;
     color: white;
     background-color: #347893;
+}
+
+#preview-title {
+    color: white;
+    margin: 0;
+    margin-bottom: 1em;
+
 }
