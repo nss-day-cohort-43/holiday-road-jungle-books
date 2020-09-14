@@ -13,16 +13,10 @@ aside {
   flex-basis: 35%;
 }
 
-aside h3 {
-  background-color: #347893;
-  color: white;
-  font-family: "Lobster", cursive;
-  font-size: 24px;
-  letter-spacing: 1.5px;
-  margin: 0;
-  padding: 1em;
-  text-align: center;
+aside h2 {
+  padding: 0.25em;
 }
+
 
 .savedItinerary p {
   font-size: 14px;
