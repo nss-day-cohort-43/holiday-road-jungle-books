@@ -7,7 +7,7 @@ const contentTarget = document.querySelector(".heroSection");
 //renders when page loads
 contentTarget.innerHTML = ` <div class="heroImageFull">
 <img class="heroImage hide-text" alt="default image" src="../../imgs/defaultPark.jpg">
-<div class="centered"><h1>Welcome to Jungle Booking</h1></div>
+<div class="centered heroImage-Title"><h1>Welcome to Jungle Booking</h1></div>
 </div>`;
 
 eventHub.addEventListener("parkSelected", (event) => {
