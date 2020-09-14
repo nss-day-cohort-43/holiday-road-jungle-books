@@ -3,6 +3,8 @@
 @import "weather.css";
 @import 'itineraryPreview.css';
 @import "itineraryDetails.css";
+@import "heroImage.css";
+
 body {
   margin: 0;
 }
