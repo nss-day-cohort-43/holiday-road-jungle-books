@@ -1,6 +1,6 @@
 .itineraryDetailsContainer {
     display: flex;
-    flex-flow: row wrap;
+    flex-flow: row nowrap;
     width: 100%;
 }
 
@@ -12,6 +12,10 @@
     display: flex;
     flex-flow: row wrap;
     align-items: center;
+}
+
+.attraction--card h2 {
+    color: white;
 }
 
 .attraction--card button {
@@ -26,6 +30,10 @@
     display: flex;
     flex-flow: row wrap;
     align-items: center;
+}
+
+.eatery--card h2 {
+    color: white;
 }
 
 .eatery--card button {
