@@ -2,12 +2,15 @@
 // once a park is selected, should display on preview with option to see details
 // when 'save' button clicked on DOM, park saves with itinerary in DataBase
 // will dispatch an event.... hopefully.
-import { dispatchParkEvent, getParks, useParks, getPark, usePark } from './ParkProvider.js'
+import {
+  dispatchParkEvent,
+  getParks,
+  useParks,
+  getPark,
+  usePark,
+} from "./ParkProvider.js";
 
-
-
-
-const eventHub = document.querySelector('.container')
+const eventHub = document.querySelector(".container");
 
 //listen for when the user has chosen an activity
 eventHub.addEventListener('parkReady', event => {
@@ -65,7 +68,6 @@ eventHub.addEventListener('parkReady', event => {
                     }
                 })
         }
-
     }
 })
 
