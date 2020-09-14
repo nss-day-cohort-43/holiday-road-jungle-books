@@ -30,27 +30,39 @@ eventHub.addEventListener('activityChosen', event => {
                     })
                     //render parkselect element
                     let contentTarget = document.querySelector('.parkDropdownContainer')
-                    contentTarget.innerHTML = `
-                        <select class='parksDropdown'>
-                            <option id="defaultPark" value='0'>Please select a park...</option>
-                            ${stateParks.map(park => {
-                                return `<option value="${park.parkCode}">${park.fullName}</option>`
-                            }).sort().join("")}
-                        </select>
-                    `
 
-                    //listen for a change event and dispatch the parkEvent with selected park
-                    eventHub.addEventListener('change', event => {
-                        if (event.target.classList.contains('parksDropdown')) {
-                            if (event.target.value !== '0') {
-                                getPark(event.target.value)
-                                    .then(_ => {
-                                        let selectedPark = usePark()
-                                        dispatchParkEvent(selectedPark)
-                                    })
+                    if(stateParks.length === 0){
+                        contentTarget.innerHTML = `
+                            <select class='parksDropdown' disabled>
+                                <option value='0'>No available parks</option>
+                                <option value='0' id="defaultPark">Please select a park...</option>
+                            </select>
+                        `
+                    }
+
+                    else{
+                        contentTarget.innerHTML = `
+                            <select class='parksDropdown'>
+                                <option id="defaultPark" value='0'>Please select a park...</option>
+                                ${stateParks.map(park => {
+                                    return `<option value="${park.parkCode}">${park.fullName}</option>`
+                                }).sort().join("")}
+                            </select>
+                        `
+
+                        //listen for a change event and dispatch the parkEvent with selected park
+                        eventHub.addEventListener('change', event => {
+                            if (event.target.classList.contains('parksDropdown')) {
+                                if (event.target.value !== '0') {
+                                    getPark(event.target.value)
+                                        .then(_ => {
+                                            let selectedPark = usePark()
+                                            dispatchParkEvent(selectedPark)
+                                        })
+                                }
                             }
-                        }
-                    })
+                        })
+                    }
                 })
         }
 
@@ -77,27 +89,41 @@ eventHub.addEventListener('stateChosen', event => {
                     })
                     //render parkselect element
                     let contentTarget = document.querySelector('.parkDropdownContainer')
-                    contentTarget.innerHTML = `
-                        <select class='parksDropdown'>
-                            <option id="defaultPark" value='0'>Please select a park...</option>
-                            ${stateParks.map(park => {
-                                return `<option value="${park.parkCode}">${park.fullName}</option>`
-                            }).sort().join("")}
-                        </select>
-                    `
 
-                    //listen for a change event and dispatch the parkEvent with selected park
-                    eventHub.addEventListener('change', event => {
-                        if (event.target.classList.contains('parksDropdown')) {
-                            if (event.target.value !== '0') {
-                                getPark(event.target.value)
-                                    .then(_ => {
-                                        let selectedPark = usePark()
-                                        dispatchParkEvent(selectedPark)
-                                    })
+                    if(stateParks.length === 0){
+                        contentTarget.innerHTML = `
+                            <select class='parksDropdown' disabled>
+                                <option value='0'>No parks available parks</option>
+                                <option value='0' id="defaultPark">Please select a park...</option>
+                            </select>
+                        `
+                    }
+
+                    else {
+                        contentTarget.innerHTML = `
+                            <select class='parksDropdown'>
+                                <option id="defaultPark" value='0'>Please select a park...</option>
+                                ${stateParks.map(park => {
+                                    return `<option value="${park.parkCode}">${park.fullName}</option>`
+                                }).sort().join("")}
+                            </select>
+                        `
+
+                        //listen for a change event and dispatch the parkEvent with selected park
+                        eventHub.addEventListener('change', event => {
+                            if (event.target.classList.contains('parksDropdown')) {
+                                if (event.target.value !== '0') {
+                                    getPark(event.target.value)
+                                        .then(_ => {
+                                            let selectedPark = usePark()
+                                            dispatchParkEvent(selectedPark)
+                                        })
+                                }
                             }
-                        }
-                    })
+                        })
+                    }
+
+                   
                 })
         }
 
