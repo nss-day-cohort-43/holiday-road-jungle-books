@@ -11,8 +11,10 @@ let attractionChosen = {};
 export const AttractionSave = () => {
     eventHub.addEventListener("click", event => {
         if (event.target.classList.contains("attractionSaveBtn")) {
+
             let chosenAttraction = useMatchingAttraction()
             let attractionObject = chosenAttraction[0];
+
             attractionChosen = attractionObject;
 
             contentTarget.innerHTML += AttractionsHTML(attractionChosen)

@@ -11,8 +11,10 @@ let eateryChosen = {};
 export const EaterySave = () => {
     eventHub.addEventListener("click", event => {
         if (event.target.classList.contains("eaterySaveBtn")) {
+
             let chosenEatery = useMatchingEatery()
             let eateryObject = chosenEatery[0];
+
             eateryChosen = eateryObject;
 
             contentTarget.innerHTML += EateriesHTML(eateryChosen)

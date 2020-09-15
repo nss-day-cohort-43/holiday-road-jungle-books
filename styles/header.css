@@ -2,19 +2,32 @@ header {
     display: flex;
     flex-flow: row nowrap;
     justify-content: space-between;
+    align-items: center;
+    align-content: center;
     background-color: #347893;
     padding: 0.5em;
 }
 
 #logo-image {
-    width: 20%;
+    width: 18%;
     height: auto;
+    padding: 10px;
 }
 
 .parkDropdowns {
     display: flex;
     flex-wrap: nowrap;
     align-self: flex-end;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.activitiesDropdownContainer {
+    margin-left: 10px;
+}
+
+.parkDropdownContainer {
+    margin-left: 10px;
 }
 
 /* class applies to select element itself, not a wrapper element */
