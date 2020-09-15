@@ -2,8 +2,17 @@
 
 export const AttractionsHTML = (attractionObj) => {
 
+    let amenitiesAvailable = ""
     let souvenirsAvailable = ""
     let restroomsAvailable = ""
+
+    let chosenAttraction = attractionObj.ameneties
+
+    if (Object.values(chosenAttraction).some(o => o === true)) {
+        amenitiesAvailable = "<h4>Amenities</h4>"
+    }
+
+
 
     if (attractionObj.ameneties.souvenirs === true) {
         souvenirsAvailable = "<li>Souvenirs</li>"
@@ -26,7 +35,7 @@ export const AttractionsHTML = (attractionObj) => {
                 <h4>${attractionObj.name}</h4>
                 <p><strong>Location:</strong> ${attractionObj.city}, ${attractionObj.state}</p>
                 <p>${attractionObj.description}</p>
-                <h4>Amenities:</h4>
+                ${amenitiesAvailable}
                 <ul class="yesNoContainer">
                     ${souvenirsAvailable}
                     ${restroomsAvailable}
