@@ -27,6 +27,16 @@
     background-color: #347893;
 }
 
+.attractionsDetails {
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #347893;
+}
+
+.attractionsSaved button {
+    display: none;
+}
+
 .eatery--card {
     display: flex;
     flex-flow: row wrap;
@@ -44,6 +54,16 @@
     border: none;
     color: white;
     background-color: #347893;
+}
+
+.eateriesDetails {
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #347893;
+}
+
+.eateriesSaved button {
+    display: none;
 }
 
 .modal {
