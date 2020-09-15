@@ -738,6 +738,360 @@
       },
       "date": 1600183577120,
       "id": 14
+    },
+    {
+      "park": {
+        "url": "https://www.nps.gov/pisp/index.htm",
+        "fullName": "Pipe Spring National Monument",
+        "id": "97145E4E-3909-4669-8102-9559F3C405D1",
+        "parkCode": "pisp",
+        "description": "Beneath vermilion cliffs, American Indians, Mormon ranchers, plants, animals, and many others have depended on the life-giving water found at the desert oasis at Pipe Spring. Learn about settler and Kaibab Paiute life by exploring the museum, historic fort and cabins, garden, and Ridge Trail. Visit with rangers and ranch animals, and attend living history demonstrations and talks.",
+        "latitude": "36.86282666",
+        "longitude": "-112.7398567",
+        "latLong": "lat:36.86282666, long:-112.7398567",
+        "activities": [
+          {
+            "id": "09DF0950-D319-4557-A57E-04CD2F63FF42",
+            "name": "Arts and Culture"
+          },
+          {
+            "id": "C59E231D-55FC-4B37-BC5B-FF76383951B5",
+            "name": "Craft Demonstrations"
+          },
+          {
+            "id": "FAED7F97-3474-4C21-AB42-FB0768A2F826",
+            "name": "Cultural Demonstrations"
+          },
+          {
+            "id": "13A57703-BB1A-41A2-94B8-53B692EB7238",
+            "name": "Astronomy"
+          },
+          {
+            "id": "D37A0003-8317-4F04-8FB0-4CF0A272E195",
+            "name": "Stargazing"
+          },
+          {
+            "id": "A59947B7-3376-49B4-AD02-C0423E08C5F7",
+            "name": "Camping"
+          },
+          {
+            "id": "9159DF0F-951D-4AAE-9987-CEB3CE2A9ADA",
+            "name": "Car or Front Country Camping"
+          },
+          {
+            "id": "1DFACD97-1B9C-4F5A-80F2-05593604799E",
+            "name": "Food"
+          },
+          {
+            "id": "C6D3230A-2CEA-4AFE-BFF3-DC1E2C2C4BB4",
+            "name": "Picnicking"
+          },
+          {
+            "id": "B33DC9B6-0B7D-4322-BAD7-A13A34C584A3",
+            "name": "Guided Tours"
+          },
+          {
+            "id": "A0631906-9672-4583-91DE-113B93DB6B6E",
+            "name": "Self-Guided Tours - Walking"
+          },
+          {
+            "id": "42FD78B9-2B90-4AA9-BC43-F10E9FEA8B5A",
+            "name": "Hands-On"
+          },
+          {
+            "id": "19A59EFB-DF4B-4049-9EE1-A784CAC9C70C",
+            "name": "Arts and Crafts"
+          },
+          {
+            "id": "BFF8C027-7C8F-480B-A5F8-CD8CE490BFBA",
+            "name": "Hiking"
+          },
+          {
+            "id": "45261C0A-00D8-4C27-A1F8-029F933A0D34",
+            "name": "Front-Country Hiking"
+          },
+          {
+            "id": "B204DE60-5A24-43DD-8902-C81625A09A74",
+            "name": "Living History"
+          },
+          {
+            "id": "DF4A35E0-7983-4A3E-BC47-F37B872B0F25",
+            "name": "Junior Ranger Program"
+          },
+          {
+            "id": "0C0D142F-06B5-4BE1-8B44-491B90F93DEB",
+            "name": "Park Film"
+          },
+          {
+            "id": "24380E3F-AD9D-4E38-BF13-C8EEB21893E7",
+            "name": "Shopping"
+          },
+          {
+            "id": "467DC8B8-0B7D-436D-A026-80A22358F615",
+            "name": "Bookstore and Park Store"
+          }
+        ],
+        "topics": [
+          {
+            "id": "69693007-2DF2-4EDE-BB3B-A25EBA72BDF5",
+            "name": "Architecture and Building"
+          },
+          {
+            "id": "7F81A0CB-B91F-4896-B9A5-41BE9A54A27B",
+            "name": "Archeology"
+          },
+          {
+            "id": "12EA2B56-17EC-410A-A10D-BFBA87A0669B",
+            "name": "Explorers and Expeditions"
+          },
+          {
+            "id": "988B4AFC-F478-4673-B66D-E6BDB0CCFF35",
+            "name": "Forts"
+          },
+          {
+            "id": "3B0D607D-9933-425A-BFA0-21529AC4734C",
+            "name": "Military"
+          },
+          {
+            "id": "E411F474-A530-4804-9D23-1D94C78B41E4",
+            "name": "Infantry and Militia"
+          },
+          {
+            "id": "97CCB419-196C-4B95-BB3A-621458F78415",
+            "name": "US Army"
+          },
+          {
+            "id": "6766B838-9493-4EF8-830E-2D1EFB917461",
+            "name": "Indigenous and Native Warrior"
+          },
+          {
+            "id": "A1BAF33E-EA84-4608-A888-4CEE9541F027",
+            "name": "Native American Heritage"
+          },
+          {
+            "id": "518B32FB-339D-4C52-B2C2-04BF406AA4B0",
+            "name": "Religion and Spirituality"
+          },
+          {
+            "id": "40C0866A-3890-41A4-84CA-5935DEE181AE",
+            "name": "Social Movements"
+          },
+          {
+            "id": "6AD3C080-0D31-4B75-BF4E-9A14DBC3AF6E",
+            "name": "Religious Freedom"
+          },
+          {
+            "id": "A160B3D9-1603-4D89-B82F-21FCAF9EEE3B",
+            "name": "Tragic Events"
+          },
+          {
+            "id": "CB405E14-E2A3-4C2E-A91C-AFF8AEB3DEA0",
+            "name": "Massacres"
+          },
+          {
+            "id": "F230268A-2308-40B3-A67A-DEBCAA89AB5C",
+            "name": "Murders"
+          },
+          {
+            "id": "27BF8807-54EA-4A3D-B073-AA7AA361CD7E",
+            "name": "Wars and Conflicts"
+          },
+          {
+            "id": "B564E9AA-95E9-4648-A7D1-48F94BFBEBB5",
+            "name": "Tribal Conflicts"
+          },
+          {
+            "id": "C9C749E3-39C3-45F7-BCC5-9A609E30AA05",
+            "name": "Westward Expansion"
+          },
+          {
+            "id": "4DC11D06-00F1-4A01-81D0-89CCCCE4FF50",
+            "name": "Climate Change"
+          },
+          {
+            "id": "F0F97E32-2F29-41B4-AF98-9FBE8DAB36B1",
+            "name": "Geology"
+          },
+          {
+            "id": "4BE01DC5-52E6-4F18-8C9A-B22D65965F6D",
+            "name": "Groundwater"
+          },
+          {
+            "id": "5BA15815-F78C-4E10-B9C1-FF5723881F7C",
+            "name": "Aquifers"
+          },
+          {
+            "id": "0E1A04CC-EB51-4F18-93D4-EC0B0B4EC1E3",
+            "name": "Freshwater Springs"
+          },
+          {
+            "id": "A7359FC4-DAD8-45F5-AF15-7FF62F816ED3",
+            "name": "Night Sky"
+          },
+          {
+            "id": "E06F3C94-AC8A-4B1C-A247-8EBA8910D5EE",
+            "name": "Astronomy"
+          },
+          {
+            "id": "5BE55D7F-BDB6-4E3D-AC35-2D8EBB974417",
+            "name": "Trails"
+          },
+          {
+            "id": "BA12B386-49EA-46B0-9121-FCACACC47538",
+            "name": "Watersheds"
+          }
+        ],
+        "states": "AZ",
+        "contacts": {
+          "phoneNumbers": [
+            {
+              "phoneNumber": "9286437105",
+              "description": "",
+              "extension": "",
+              "type": "Voice"
+            }
+          ],
+          "emailAddresses": [
+            {
+              "description": "",
+              "emailAddress": "PISP_interpretation@nps.gov"
+            }
+          ]
+        },
+        "entranceFees": [
+          {
+            "cost": "10.0000",
+            "description": "Entrance to Pipe Spring is $10.00 per person for up to 7 days (includes $3.00 tribal use fee). Beginning January 2, 2020, cash payments will no longer be accepted (credit or debit cards only). Visitors may pay entrance fees or purchase an Interagency Annual Pass with cash at the Zion Forever Project bookstore in the Visitor Center. Children 15 and under are admitted for free.",
+            "title": "Pipe Spring Entrance Fee - Per Person"
+          }
+        ],
+        "entrancePasses": [],
+        "directionsInfo": "Pipe Spring National Monument is located 15 miles west of Fredonia, AZ and 45 miles east of Hurricane, UT. From Interstate 15, turn onto Utah State Route 9 in Hurricane, Utah. Take Utah State Route 59 east out of Hurricane. This road turns into Arizona State Route 389 at the state line. Pipe Spring is 45 miles east of Hurricane. From Utah Highway 89 and 89A, turn onto Arizona State Route 389 in Fredonia, Arizona. Pipe Spring is 15 miles west of Fredonia.",
+        "directionsUrl": "http://www.nps.gov/pisp/planyourvisit/directions.htm",
+        "operatingHours": [
+          {
+            "exceptions": [
+              {
+                "exceptionHours": {},
+                "startDate": "2021-01-01",
+                "name": "New Year's Day",
+                "endDate": "2021-01-01"
+              },
+              {
+                "exceptionHours": {},
+                "startDate": "2020-11-26",
+                "name": "Thanksgiving",
+                "endDate": "2020-11-26"
+              },
+              {
+                "exceptionHours": {},
+                "startDate": "2020-12-25",
+                "name": "Christmas",
+                "endDate": "2020-12-25"
+              }
+            ],
+            "description": "Visitor Center, Museum, and Monument open 8:30 AM to 4:30 PM, 7 days a week.  Closed Thanksgiving, Christmas, and New Year's Day.",
+            "standardHours": {
+              "Wednesday": "8:30AM - 4:30PM",
+              "Monday": "8:30AM - 4:30PM",
+              "Thursday": "8:30AM - 4:30PM",
+              "Sunday": "8:30AM - 4:30PM",
+              "Tuesday": "8:30AM - 4:30PM",
+              "Friday": "8:30AM - 4:30PM",
+              "Saturday": "8:30AM - 4:30PM"
+            },
+            "name": "Visitor Center and Museum - Monument Grounds"
+          }
+        ],
+        "addresses": [
+          {
+            "postalCode": "86022",
+            "city": "Fredonia",
+            "stateCode": "AZ",
+            "line1": "Pipe Spring National Monument",
+            "type": "Physical",
+            "line3": "406 Pipe Springs Road",
+            "line2": ""
+          },
+          {
+            "postalCode": "86022",
+            "city": "Fredonia",
+            "stateCode": "AZ",
+            "line1": "Pipe Spring National Monument",
+            "type": "Mailing",
+            "line3": "406 Pipe Springs Road",
+            "line2": "HC 65 Box 5"
+          }
+        ],
+        "images": [
+          {
+            "credit": "NPS Photo/Kait Thomas",
+            "title": "Milky Way over the Chuckwagon",
+            "altText": "A glittering sky of stars glows above a historic covered wagon.",
+            "caption": "The Milky Way glitters above the chuckwagon at Pipe Spring National Monument. The monument has great night sky clarity because it is located inside the first Dark Sky Nation: The Kaibab Indian Reservation.",
+            "url": "https://www.nps.gov/common/uploads/structured_data/3C865B7C-1DD8-B71B-0BC81C6B55603669.jpg"
+          },
+          {
+            "credit": "NPS Photo/Paul Kister",
+            "title": "Winsor Castle",
+            "altText": "A sandstone fort rests between desert scrub in the foreground and a mountain in the distance.",
+            "caption": "Winsor Castle, constructed in 1870-72, is surrounded by the harsh beauty of Utah and Arizona's canyon country.",
+            "url": "https://www.nps.gov/common/uploads/structured_data/3C865CD5-1DD8-B71B-0BB4186C2B055C98.jpg"
+          },
+          {
+            "credit": "NPS Photo/Paul Kister",
+            "title": "Historic Garden at Pipe Spring",
+            "altText": "A lush garden filled with settler and native crops grows in front of a sandstone fort",
+            "caption": "Pipe Spring maintains a living history garden that grows settler and native crops as they would have grown in the 1870s. In the fall, visitors may harvest free fruit and veggies.",
+            "url": "https://www.nps.gov/common/uploads/structured_data/3C865E17-1DD8-B71B-0BFCD97B38531840.jpg"
+          },
+          {
+            "credit": "NPS Photo/Evan Cram",
+            "title": "West Cabin in Snow",
+            "altText": "A red-orange sandstone cabin surrounded by white snow.",
+            "caption": "Wintertime showcases a stark peace and stillness at the historic buildings. Pictured here, West Cabin sticks out after a snowstorm.",
+            "url": "https://www.nps.gov/common/uploads/structured_data/3C86604B-1DD8-B71B-0B9B50572BEDA3A2.jpg"
+          },
+          {
+            "credit": "NPS Photo/Evan Cram",
+            "title": "Longhorn Cattle",
+            "altText": "A large longhorn cattle steer shows off his 6-foot span horns inside a corral.",
+            "caption": "Whitmore and Tess, two Texas Longhorns, greet visitors. Longhorns were brought to Pipe Spring in the 1860s.",
+            "url": "https://www.nps.gov/common/uploads/structured_data/3C8661FC-1DD8-B71B-0B513CB63AB902C2.jpg"
+          }
+        ],
+        "weatherInfo": "Weather is hot in summer and cold in winter. Expect summer highs to be 80-100 degrees Fahrenheit and winter highs to be 30-50 degrees. Early morning and late afternoon can be considerably cooler; dress in layers and bring plenty of sunscreen. Arizona climate is very dry -- bring at least 1 liter of water per person per visit to Pipe Spring.",
+        "name": "Pipe Spring",
+        "designation": "National Monument"
+      },
+      "eatery": {
+        "businessName": "Hy's Steak House",
+        "description": "There are older restaurants, and places with wackier backstories (House Without a Key was in the first Charlie Chan novel!), but -- for nearly 40 years -- everyone knows Hy's. The classic steakhouse is known for cooking its meats over native kiawe wood, so you can't really go wrong trying the roast rack of lamb seared over the hot charcoal, paired up with a Caesar prepared tableside. It may not have been in a book, but pretty soon these guys will be writing their own.",
+        "state": "HI",
+        "city": "Honolulu",
+        "id": 13,
+        "ameneties": {
+          "wheelchairAccessible": false,
+          "petFriendly": false,
+          "wifi": false,
+          "diaperFacility": true,
+          "playground": false,
+          "restrooms": true
+        }
+      },
+      "attraction": {
+        "id": 15,
+        "name": "World’s Largest Egg",
+        "state": "IN",
+        "city": "Mentone",
+        "description": "Mentone is known as “the egg basket of the Midwest” — and they have the world’s largest egg to prove it. No, it’s not real, but this enormous cement egg is still well worth taking a photo next to.",
+        "ameneties": {
+          "souvenirs": true,
+          "restrooms": false
+        }
+      },
+      "date": 1600195452319,
+      "id": 15
     }
   ]
 }
