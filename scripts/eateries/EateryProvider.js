@@ -14,3 +14,15 @@ export const getEateries = () => {
             eateries = parsedResponse
         })
 }
+
+const eventHub = document.querySelector('.container')
+
+export const dispatchEateryEvent = (eatery) => {
+    const customEvent = new CustomEvent("eateryChosen", {
+        detail: {
+            eateryId: eatery
+        }
+    })
+
+    eventHub.dispatchEvent(customEvent)
+}
