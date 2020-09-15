@@ -3,20 +3,16 @@
 // when 'save' button clicked on DOM, eatery saves with itinerary in DataBase
 // will dispatch an event.... hopefully.
 
-import { useEateries, getEateries } from './EateryProvider.js'
+import { useEateries, getEateries, dispatchEateryEvent } from './EateryProvider.js'
 
 const eventHub = document.querySelector(".container")
 const contentTarget = document.querySelector(".eateriesDropdown")
 
 eventHub.addEventListener("change", event => {
     if (event.target.id === "eaterySelect") {
-        const customEvent = new CustomEvent("eateryChosen", {
-            detail: {
-                eateryId: event.target.value
-            }
-        })
 
-        eventHub.dispatchEvent(customEvent)
+        dispatchEateryEvent(event.target.value)
+        
     }
 })
 

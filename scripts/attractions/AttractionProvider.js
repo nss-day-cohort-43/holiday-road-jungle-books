@@ -14,3 +14,15 @@ export const getAttractions = () => {
             attractions = parsedResponse
         })
 }
+
+const eventHub = document.querySelector('.container')
+
+export const dispatchAttractionEvent = (attraction) => {
+    const customEvent = new CustomEvent("attractionChosen", {
+        detail: {
+            attractionId: attraction
+        }
+    })
+
+    eventHub.dispatchEvent(customEvent)
+}

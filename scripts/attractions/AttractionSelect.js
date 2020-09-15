@@ -3,20 +3,16 @@
 // when 'save' button clicked on DOM, attraction saves with itinerary in DataBase
 // will dispatch an event.... hopefully.
 
-import { useAttractions, getAttractions } from './AttractionProvider.js'
+import { useAttractions, getAttractions, dispatchAttractionEvent } from './AttractionProvider.js'
 
 const eventHub = document.querySelector(".container")
 const contentTarget = document.querySelector(".attractionsDropdown")
 
 eventHub.addEventListener("change", event => {
     if (event.target.id === "attractionSelect") {
-        const customEvent = new CustomEvent("attractionChosen", {
-            detail: {
-                attractionId: event.target.value
-            }
-        })
 
-        eventHub.dispatchEvent(customEvent)
+        dispatchAttractionEvent(event.target.value)
+
     }
 })
 
