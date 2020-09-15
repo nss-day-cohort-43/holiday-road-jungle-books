@@ -1,6 +1,6 @@
 import { dispatchParkEvent, getPark, usePark } from '../parks/ParkProvider.js'
-import { useEateries, getEateries, dispatchEateryEvent } from '../eateries/EateryProvider.js'
-import { useAttractions, getAttractions, dispatchAttractionEvent } from '../attractions/AttractionProvider.js'
+import { dispatchEateryEvent } from '../eateries/EateryProvider.js'
+import { dispatchAttractionEvent } from '../attractions/AttractionProvider.js'
 
 
 const eventHub = document.querySelector('.container')
@@ -23,7 +23,7 @@ eventHub.addEventListener('customSearch', event =>{
 
             ${event.detail.eateries.map(eatery => {
                 return `
-                    <li>${eatery.businessName}</li>
+                    <li>${eatery.businessName}<button id="${eatery.businessName}" class="addEateryBtn">Add</button></li>
                 `
             }).join("")}
         `
@@ -40,9 +40,14 @@ eventHub.addEventListener("click", event => {
         })
     }
 
-    if(event.target.classList.contains('addAttractionBtn')){
+    else if(event.target.classList.contains('addAttractionBtn')){
         const attractionID = event.target.id
         dispatchAttractionEvent(attractionID)
+    }
+
+    else if(event.target.classList.contains('addEateryBtn')){
+        const eateryID = event.target.id
+        dispatchEateryEvent(eateryID)
     }
 
 })
