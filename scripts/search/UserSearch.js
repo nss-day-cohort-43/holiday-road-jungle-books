@@ -1,4 +1,4 @@
-import { getSearchedParks, dispatchParkSearchEvent, useSearchedParks } from './UserSearchProvider.js'
+import { getSearchedParks, dispatchParkSearchEvent, useSearchedParks } from './ParkSearchProvider.js'
 
 const eventHub = document.querySelector('.container')
 
@@ -9,7 +9,21 @@ eventHub.addEventListener('search', event => {
         getSearchedParks(query)
         .then(_ => {
             const searchedParks = useSearchedParks()
-            dispatchParkSearchEvent(searchedParks)
+            const eateries = []
+            const attractions = []
+            dispatchSearchEvent(eateries, searchedParks, attractions)
         })
     }
 })
+
+const dispatchSearchEvent = (eateriesArray, parksArray, attractionsArray) => {
+    const searchEvent = new CustomEvent('customSearch', {
+        detail : {
+            parks: parksArray,
+            eateries: eateriesArray,
+            attractions: attractionsArray
+        }
+    })
+
+    eventHub.dispatchEvent(searchEvent)
+}

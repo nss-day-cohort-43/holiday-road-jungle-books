@@ -1,5 +1,5 @@
 const eventHub = document.querySelector('.container')
 
-eventHub.addEventListener('searchEvent', event =>{
+eventHub.addEventListener('customSearch', event =>{
     debugger;
 })
