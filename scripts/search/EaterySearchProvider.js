@@ -11,6 +11,5 @@ export const getSearchedEateries = (query) => {
             searchedEateries = parsedResponse.filter(eatery => {
                 return eatery.businessName.toLowerCase().includes(query.toLowerCase())
             })
-            debugger
         })
 }
