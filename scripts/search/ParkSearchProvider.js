@@ -9,23 +9,10 @@ export const getSearchedParks = (query) => {
         searchedParks = parsedResults.data.filter(park => {
             return park.name.toLowerCase().includes(query.toLowerCase())
         });
-        debugger;
     })
 }
-
-const eventHub = document.querySelector('.container')
 
 export const useSearchedParks = () => {
     return searchedParks.slice();
 }
 
-export const dispatchParkSearchEvent = (parksArray) => {
-    const parkSearchEvent = new CustomEvent('searchEvent', {
-        detail: {
-            parks: parksArray
-        }
-    })
-
-    eventHub.dispatchEvent(parkSearchEvent)
-
-}

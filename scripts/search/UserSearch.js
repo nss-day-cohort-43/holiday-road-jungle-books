@@ -1,4 +1,5 @@
-import { getSearchedParks, dispatchParkSearchEvent, useSearchedParks } from './ParkSearchProvider.js'
+import { getSearchedParks, useSearchedParks } from './ParkSearchProvider.js'
+import { getSearchedEateries, useSearchedEateries} from './EaterySearchProvider.js'
 
 const eventHub = document.querySelector('.container')
 
@@ -9,9 +10,12 @@ eventHub.addEventListener('search', event => {
         getSearchedParks(query)
         .then(_ => {
             const searchedParks = useSearchedParks()
-            const eateries = []
-            const attractions = []
-            dispatchSearchEvent(eateries, searchedParks, attractions)
+            getSearchedEateries(query)
+            .then(_ => {
+                const eateries = useSearchedEateries()
+                const attractions = []
+                dispatchSearchEvent(eateries, searchedParks, attractions)
+            })
         })
     }
 })
