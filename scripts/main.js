@@ -5,6 +5,7 @@ import "./parks/ParkList.js";
 import { WeatherList } from "./weather/WeatherList.js";
 import { savedItinerary } from "./itinerary/ItinerarySave.js";
 import { EaterySelect } from "./eateries/EaterySelect.js";
+import { EaterySave } from './eateries/EateriesSave.js'
 import { AttractionSelect } from "./attractions/AttractionSelect.js";
 import { AttractionSave } from './attractions/AttractionSave.js'
 import "./eateries/EateryList.js";
@@ -18,3 +19,4 @@ ActivitySelect();
 AttractionSelect();
 AttractionSave()
 EaterySelect();
+EaterySave()
