@@ -10,6 +10,7 @@ import "./eateries/EateryList.js";
 import "./attractions/AttractionList.js";
 import "./parks/image/ParkImageComponent.js";
 import "./search/UserSearch.js"
+import "./search/SearchResults.js"
 
 WeatherList();
 savedItinerary();
