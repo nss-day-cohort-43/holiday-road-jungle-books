@@ -1508,6 +1508,250 @@
       },
       "date": 1600121416176,
       "id": 15
+    },
+    {
+      "park": {
+        "url": "https://www.nps.gov/cure/index.htm",
+        "fullName": "Curecanti National Recreation Area",
+        "id": "80E30980-1B26-4AE7-A039-FA7D8D119070",
+        "parkCode": "cure",
+        "description": "Curecanti National Recreation Area is a series of three reservoirs along the once wild Gunnison River. The reservoirs that make up Curecanti today are a destination for water-based recreation high in the Rocky Mountains. Best known for salmon and trout fishing, Curecanti also offers opportunities for hiking, boating, camping, and bird watching.",
+        "latitude": "38.46584558",
+        "longitude": "-107.3303371",
+        "latLong": "lat:38.46584558, long:-107.3303371",
+        "activities": [
+          {
+            "id": "5F723BAD-7359-48FC-98FA-631592256E35",
+            "name": "Auto and ATV"
+          },
+          {
+            "id": "0B4A5320-216D-451A-9990-626E1D5ACE28",
+            "name": "Scenic Driving"
+          },
+          {
+            "id": "071BA73C-1D3C-46D4-A53C-00D5602F7F0E",
+            "name": "Boating"
+          },
+          {
+            "id": "A510F02B-8938-4679-A4F9-76580BCAE9C7",
+            "name": "Boat Tour"
+          },
+          {
+            "id": "A59947B7-3376-49B4-AD02-C0423E08C5F7",
+            "name": "Camping"
+          },
+          {
+            "id": "AE42B46C-E4B7-4889-A122-08FE180371AE",
+            "name": "Fishing"
+          },
+          {
+            "id": "9BC03FAF-28F1-4609-BF6F-643F58071AED",
+            "name": "Fly Fishing"
+          },
+          {
+            "id": "B33DC9B6-0B7D-4322-BAD7-A13A34C584A3",
+            "name": "Guided Tours"
+          },
+          {
+            "id": "5A241412-0CFB-497A-9B5F-0AB8C03CDE72",
+            "name": "Boat Tour"
+          },
+          {
+            "id": "BFF8C027-7C8F-480B-A5F8-CD8CE490BFBA",
+            "name": "Hiking"
+          },
+          {
+            "id": "0307955A-B65C-4CE4-A780-EB36BAAADF0B",
+            "name": "Horse Trekking"
+          },
+          {
+            "id": "1886DA47-0AEC-4568-B9C2-8E9BC316AAAC",
+            "name": "Horseback Riding"
+          },
+          {
+            "id": "8386EEAF-985F-4DE8-9037-CCF91975AC94",
+            "name": "Hunting and Gathering"
+          },
+          {
+            "id": "25559F45-F162-4B8B-BEC2-B341034A2AF4",
+            "name": "Hunting"
+          },
+          {
+            "id": "587BB2D3-EC35-41B2-B3F7-A39E2B088AEE",
+            "name": "Swimming"
+          },
+          {
+            "id": "0B685688-3405-4E2A-ABBA-E3069492EC50",
+            "name": "Wildlife Watching"
+          },
+          {
+            "id": "5A2C91D1-50EC-4B24-8BED-A2E11A1892DF",
+            "name": "Birdwatching"
+          }
+        ],
+        "topics": [
+          {
+            "id": "7F81A0CB-B91F-4896-B9A5-41BE9A54A27B",
+            "name": "Archeology"
+          },
+          {
+            "id": "12EA2B56-17EC-410A-A10D-BFBA87A0669B",
+            "name": "Explorers and Expeditions"
+          },
+          {
+            "id": "FE2C2613-B41E-4531-BC43-03EB6E45CBCF",
+            "name": "Transportation"
+          },
+          {
+            "id": "86525CF5-EB56-41A6-90BF-566C6C0FC945",
+            "name": "Trains and Railroads"
+          },
+          {
+            "id": "0D00073E-18C3-46E5-8727-2F87B112DDC6",
+            "name": "Animals"
+          },
+          {
+            "id": "1608649A-E7D7-4529-BD83-074C90F9FB68",
+            "name": "Fish"
+          },
+          {
+            "id": "F6D3A52E-608F-47D6-96DF-1FD64122A2FC",
+            "name": "Fossils and Paleontology"
+          },
+          {
+            "id": "F0F97E32-2F29-41B4-AF98-9FBE8DAB36B1",
+            "name": "Geology"
+          },
+          {
+            "id": "5BE55D7F-BDB6-4E3D-AC35-2D8EBB974417",
+            "name": "Trails"
+          },
+          {
+            "id": "78E4F4AC-AF97-435A-8C2C-7FB8D67516ED",
+            "name": "Unique Species"
+          },
+          {
+            "id": "996BEDAE-CB23-4003-B008-3A1F46A72263",
+            "name": "Rare"
+          }
+        ],
+        "states": "CO",
+        "contacts": {
+          "phoneNumbers": [
+            {
+              "phoneNumber": "9706412337",
+              "description": "",
+              "extension": "205",
+              "type": "Voice"
+            },
+            {
+              "phoneNumber": "9706413127",
+              "description": "",
+              "extension": "",
+              "type": "Fax"
+            }
+          ],
+          "emailAddresses": [
+            {
+              "description": "",
+              "emailAddress": "cure_info@nps.gov"
+            }
+          ]
+        },
+        "entranceFees": [
+          {
+            "cost": "0.0000",
+            "description": "There is no entrance fee for Curecanti. Visitors traveling to East Portal through the Black Canyon of the Gunnison National Park entrance must pay $15.00 per vehicle. It covers all persons in a single, private, noncommercial vehicle and is valid for seven calendar days.",
+            "title": "Entrance Fee"
+          }
+        ],
+        "entrancePasses": [],
+        "directionsInfo": "U.S. Highway 50 runs the length of Curecanti between Montrose and Gunnison. The recreation area is also accessed from CO Highway 149 and CO Highway 92.",
+        "directionsUrl": "http://www.nps.gov/cure/planyourvisit/directions.htm",
+        "operatingHours": [
+          {
+            "exceptions": [],
+            "description": "Open 24 hours per day, 365 days per year, weather permitting.",
+            "standardHours": {
+              "Wednesday": "All Day",
+              "Monday": "All Day",
+              "Thursday": "All Day",
+              "Sunday": "All Day",
+              "Tuesday": "All Day",
+              "Friday": "All Day",
+              "Saturday": "All Day"
+            },
+            "name": "Recreation Area"
+          }
+        ],
+        "addresses": [
+          {
+            "postalCode": "81230",
+            "city": "Gunnison",
+            "stateCode": "CO",
+            "line1": "102 Elk Creek",
+            "type": "Physical",
+            "line3": "",
+            "line2": ""
+          },
+          {
+            "postalCode": "81230",
+            "city": "Gunnison",
+            "stateCode": "CO",
+            "line1": "102 Elk Creek",
+            "type": "Mailing",
+            "line3": "",
+            "line2": ""
+          }
+        ],
+        "images": [
+          {
+            "credit": "NPS Photo/Lynch",
+            "title": "Dillon Pinnacles, Curecanti National Recreation Area",
+            "altText": "Dillon Pinnacles, Curecanti National Recreation Area",
+            "caption": "Dillon Pinnacles, Curecanti National Recreation Area",
+            "url": "https://www.nps.gov/common/uploads/structured_data/3C816852-1DD8-B71B-0B23A038AF62DA56.jpg"
+          },
+          {
+            "credit": "NPS Photo/Lynch",
+            "title": "Blue Mesa Reservoir, Curecanti National Recreation Area",
+            "altText": "Blue Mesa Reservoir, Curecanti National Recreation Area",
+            "caption": "Blue Mesa Reservoir, Curecanti National Recreation Area",
+            "url": "https://www.nps.gov/common/uploads/structured_data/3C8169C2-1DD8-B71B-0BFDD25D2909BA8F.jpg"
+          }
+        ],
+        "weatherInfo": "Weather can vary greatly throughout the day. Summer daytime temperatures range between 50 to 90F (10 to 32C), nights 40 to 60F (4 to 15C). Winter daytime temperatures range between -20 to +40F (-29 to +4C), nights -30 to +20F (-34 to -7C). Precipitation is minimal, but afternoon thunderstorms and strong winds are common during the summer. Snow accumulation varies greatly year to year. Layered clothing appropriate for the season is recommended.",
+        "name": "Curecanti",
+        "designation": "National Recreation Area"
+      },
+      "eatery": {
+        "businessName": "H&H Soul Food",
+        "description": "Georgia has music in its blood. Atlanta is the country's epicenter of hip-hop (and also Love & Hip Hop: Atlanta). And Macon, a charming Southern town about an hour and a half outside of ATL, is where the Allman Brothers Band lived, partied, and recorded in the early '70s. As legend has it, they stopped by H&H when they were broke and starving, and one of the co-owners, Mama Louise, fed them. She became the legend after that, and continued to feed legions of Southern musicians who stopped by. Mama Louise shut the place down in 2013, but it recently reopened with new owners and with Mama helping out the kitchen staff, even into her 80s. And perhaps most importantly, Oprah's been here.",
+        "state": "GA",
+        "city": "Macon",
+        "id": 12,
+        "ameneties": {
+          "wheelchairAccessible": false,
+          "petFriendly": false,
+          "wifi": false,
+          "diaperFacility": true,
+          "playground": true,
+          "restrooms": true
+        }
+      },
+      "attraction": {
+        "id": 12,
+        "name": "World’s Most Scenic Urinal",
+        "state": "HI",
+        "city": "Kealakekua",
+        "description": "The Hotel Kona is home to the world’s most scenic urinal and they are proud of it. Men using the facilities get to enjoy a gorgeous view of the ocean and the green terrain while they relieve themselves.",
+        "ameneties": {
+          "souvenirs": false,
+          "restrooms": true
+        }
+      },
+      "date": 1600186897560,
+      "id": 16
     }
   ]
 }

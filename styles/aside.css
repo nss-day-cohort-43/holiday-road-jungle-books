@@ -49,6 +49,7 @@ aside h2 {
 .more-info-btn {
   color: #347893;
   font-weight: bold;
+  cursor: pointer;
 }
 
 .more-info-btn:hover {
