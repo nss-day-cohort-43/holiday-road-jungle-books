@@ -17,14 +17,25 @@
 .attraction--card h2 {
     font-size: 1.25em;
     color: white;
+    width: 100%;
 }
 
 .attraction--card button {
     height: 2em;
-    margin-left: 10px;
+    margin-right: 10px;
     border: none;
     color: white;
     background-color: #347893;
+}
+
+.attractionsDetails {
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #347893;
+}
+
+.attractionsSaved button {
+    display: none;
 }
 
 .eatery--card {
@@ -36,14 +47,25 @@
 .eatery--card h2 {
     font-size: 1.25em;
     color: white;
+    width: 100%;
 }
 
 .eatery--card button {
     height: 2em;
-    margin-left: 10px;
+    margin-right: 10px;
     border: none;
     color: white;
     background-color: #347893;
+}
+
+.eateriesDetails {
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #347893;
+}
+
+.eateriesSaved button {
+    display: none;
 }
 
 .modal {
@@ -75,7 +97,12 @@
   }
 
   .modal-content h4 {
-      margin-bottom: 0;
+      margin-bottom: 10px;
+  }
+
+  .modal-content h5 {
+      font-size: medium;
+      margin: 25px 0 0 0;
   }
 
   .modal-content p {

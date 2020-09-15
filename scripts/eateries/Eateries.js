@@ -44,6 +44,7 @@ export const EateriesHTML = (eateryObj) => {
         <div class="eatery--card" id="eatery--${eateryObj.id}">
             <h2>${eateryObj.businessName}</h2>
             <button class="eatery--button" id="eatery-modal-btn">Details</button>
+            <button class="eatery--button eaterySaveBtn">Add to Itinerary</button>
         </div>
 
         <div class="modal eatery-modal" id="eatery-info--${eateryObj.id}">

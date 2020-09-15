@@ -26,6 +26,7 @@ export const AttractionsHTML = (attractionObj) => {
         <div class="attraction--card" id="attraction--${attractionObj.id}">
             <h2>${attractionObj.name}</h2>
             <button class="attraction--button" id="attraction-modal-btn">Details</button>
+            <button class="attraction--button attractionSaveBtn">Add to Itinerary</button>
         </div>
 
         <div class="modal attraction-modal" id="attraction-info--${attractionObj.id}">
