@@ -17,14 +17,23 @@ header {
     align-self: flex-end;
 }
 
-.hide {
-    display: none;
+.searchResults {
+    position: absolute;
+    z-index: 1;
+    background-color: white;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
 }
 
-.searchResults {
-    position: fixed;
-    z-index: 1;
-    color: white;
+.searchContainer {
+    align-self: flex-end;
+}
+
+.searchResults li {
+    border: 1px solid grey;
+    display: flex;
+    flex-wrap: nowrap;
 }
 
 /* class applies to select element itself, not a wrapper element */

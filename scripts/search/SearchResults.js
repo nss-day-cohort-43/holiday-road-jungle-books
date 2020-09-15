@@ -11,19 +11,19 @@ eventHub.addEventListener('customSearch', event =>{
         contentTarget.innerHTML = `
             ${event.detail.parks.map(park => {
                 return `
-                    <li>${park.fullName}<button id="${park.parkCode}" class="selectParkBtn">Add</button></li>
+                    <li>${park.fullName}<button id="${park.parkCode}" class="selectParkBtn">&#10010;</button></li>
                 `
             }).join("")}
 
             ${event.detail.attractions.map(attraction => {
                 return `
-                    <li>${attraction.name}<button id="${attraction.name}" class="addAttractionBtn">Add</button></li>
+                    <li>${attraction.name}<button id="${attraction.name}" class="addAttractionBtn">&#10010;</button></li>
                 `
             }).join("")}
 
             ${event.detail.eateries.map(eatery => {
                 return `
-                    <li>${eatery.businessName}<button id="${eatery.businessName}" class="addEateryBtn">Add</button></li>
+                    <li>${eatery.businessName}<button id="${eatery.businessName}" class="addEateryBtn">&#10010;</button></li>
                 `
             }).join("")}
         `
