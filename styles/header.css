@@ -17,6 +17,16 @@ header {
     align-self: flex-end;
 }
 
+.hide {
+    display: none;
+}
+
+.searchResults {
+    position: fixed;
+    z-index: 1;
+    color: white;
+}
+
 /* class applies to select element itself, not a wrapper element */
 .select-css {
     display: block;
