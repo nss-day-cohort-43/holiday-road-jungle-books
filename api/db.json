@@ -500,50 +500,22 @@
     },
     {
       "park": {
-        "url": "https://www.nps.gov/liri/index.htm",
-        "fullName": "Little River Canyon National Preserve",
-        "id": "C03CF86E-BFB5-470E-AFF3-C1798A61FFE5",
-        "parkCode": "liri",
-        "description": "Little River is unique because it flows for most of its length atop Lookout Mountain in northeast Alabama. Forested uplands, waterfalls, canyon rims and bluffs, pools, boulders, and sandstone cliffs offer settings for a variety of recreational activities. Natural resources and cultural heritage come together to tell the story of the Preserve, a special place in the Southern Appalachians.",
-        "latitude": "34.41461863",
-        "longitude": "-85.61734327",
-        "latLong": "lat:34.41461863, long:-85.61734327",
+        "url": "https://www.nps.gov/abli/index.htm",
+        "fullName": "Abraham Lincoln Birthplace National Historical Park",
+        "id": "77E0D7F0-1942-494A-ACE2-9004D2BDC59E",
+        "parkCode": "abli",
+        "description": "For over a century people from around the world have come to rural Central Kentucky to honor the humble beginnings of our 16th president, Abraham Lincoln. His early life on Kentucky's frontier shaped his character and prepared him to lead the nation through Civil War. The country's first memorial to Lincoln, built with donations from young and old, enshrines the symbolic birthplace cabin.",
+        "latitude": "37.5858662",
+        "longitude": "-85.67330523",
+        "latLong": "lat:37.5858662, long:-85.67330523",
         "activities": [
           {
-            "id": "5F723BAD-7359-48FC-98FA-631592256E35",
-            "name": "Auto and ATV"
+            "id": "13A57703-BB1A-41A2-94B8-53B692EB7238",
+            "name": "Astronomy"
           },
           {
-            "id": "0B4A5320-216D-451A-9990-626E1D5ACE28",
-            "name": "Scenic Driving"
-          },
-          {
-            "id": "7CE6E935-F839-4FEC-A63E-052B1DEF39D2",
-            "name": "Biking"
-          },
-          {
-            "id": "8D778629-F603-4C50-A121-6F4BB2FE2C4B",
-            "name": "Road Biking"
-          },
-          {
-            "id": "B12FAAB9-713F-4B38-83E4-A273F5A43C77",
-            "name": "Climbing"
-          },
-          {
-            "id": "87D3B1CD-3903-4561-ABB1-2DD870C43F2F",
-            "name": "Rock Climbing"
-          },
-          {
-            "id": "AE42B46C-E4B7-4889-A122-08FE180371AE",
-            "name": "Fishing"
-          },
-          {
-            "id": "25FB188F-5AAD-459A-9092-28A9801709FF",
-            "name": "Freshwater Fishing"
-          },
-          {
-            "id": "9BC03FAF-28F1-4609-BF6F-643F58071AED",
-            "name": "Fly Fishing"
+            "id": "D37A0003-8317-4F04-8FB0-4CF0A272E195",
+            "name": "Stargazing"
           },
           {
             "id": "1DFACD97-1B9C-4F5A-80F2-05593604799E",
@@ -554,56 +526,8 @@
             "name": "Picnicking"
           },
           {
-            "id": "BFF8C027-7C8F-480B-A5F8-CD8CE490BFBA",
-            "name": "Hiking"
-          },
-          {
-            "id": "7C37B79B-D02D-49EB-9020-3DB8299B748A",
-            "name": "Backcountry Hiking"
-          },
-          {
-            "id": "45261C0A-00D8-4C27-A1F8-029F933A0D34",
-            "name": "Front-Country Hiking"
-          },
-          {
-            "id": "0307955A-B65C-4CE4-A780-EB36BAAADF0B",
-            "name": "Horse Trekking"
-          },
-          {
-            "id": "1886DA47-0AEC-4568-B9C2-8E9BC316AAAC",
-            "name": "Horseback Riding"
-          },
-          {
-            "id": "8386EEAF-985F-4DE8-9037-CCF91975AC94",
-            "name": "Hunting and Gathering"
-          },
-          {
-            "id": "25559F45-F162-4B8B-BEC2-B341034A2AF4",
-            "name": "Hunting"
-          },
-          {
-            "id": "4D224BCA-C127-408B-AC75-A51563C42411",
-            "name": "Paddling"
-          },
-          {
-            "id": "21DB3AFC-8AAC-4665-BC1F-7198C0685983",
-            "name": "Canoeing"
-          },
-          {
-            "id": "F353A9ED-4A08-456E-8DEC-E61974D0FEB6",
-            "name": "Kayaking"
-          },
-          {
             "id": "DF4A35E0-7983-4A3E-BC47-F37B872B0F25",
             "name": "Junior Ranger Program"
-          },
-          {
-            "id": "587BB2D3-EC35-41B2-B3F7-A39E2B088AEE",
-            "name": "Swimming"
-          },
-          {
-            "id": "82C3230F-6F87-452C-A01B-F8458867B26A",
-            "name": "Freshwater Swimming"
           },
           {
             "id": "0B685688-3405-4E2A-ABBA-E3069492EC50",
@@ -612,9 +536,29 @@
           {
             "id": "5A2C91D1-50EC-4B24-8BED-A2E11A1892DF",
             "name": "Birdwatching"
+          },
+          {
+            "id": "24380E3F-AD9D-4E38-BF13-C8EEB21893E7",
+            "name": "Shopping"
+          },
+          {
+            "id": "467DC8B8-0B7D-436D-A026-80A22358F615",
+            "name": "Bookstore and Park Store"
+          },
+          {
+            "id": "43800AD1-D439-40F3-AAB3-9FB651FE45BB",
+            "name": "Gift Shop and Souvenirs"
           }
         ],
         "topics": [
+          {
+            "id": "D10852A3-443C-4743-A5FA-6DD6D2A054B3",
+            "name": "Birthplace"
+          },
+          {
+            "id": "F669BC40-BDC4-41C0-9ACE-B2CD25373045",
+            "name": "Presidents"
+          },
           {
             "id": "0D00073E-18C3-46E5-8727-2F87B112DDC6",
             "name": "Animals"
@@ -624,65 +568,37 @@
             "name": "Birds"
           },
           {
-            "id": "1608649A-E7D7-4529-BD83-074C90F9FB68",
-            "name": "Fish"
+            "id": "E25F3456-43ED-45DD-93BC-057F9B944F7A",
+            "name": "Caves, Caverns and Karst"
           },
           {
-            "id": "BCE3ACBE-7871-495B-AEA3-5E19BC482405",
-            "name": "Canyons and Canyonlands"
+            "id": "F0F97E32-2F29-41B4-AF98-9FBE8DAB36B1",
+            "name": "Geology"
           },
           {
-            "id": "04A39AB8-DD02-432F-AE5F-BA1267D41A0D",
-            "name": "Fire"
+            "id": "4BE01DC5-52E6-4F18-8C9A-B22D65965F6D",
+            "name": "Groundwater"
           },
           {
-            "id": "101F4D51-F99D-45A6-BBB6-CD481E5FACED",
-            "name": "Mountains"
+            "id": "0E1A04CC-EB51-4F18-93D4-EC0B0B4EC1E3",
+            "name": "Freshwater Springs"
           },
           {
-            "id": "F8C2FE93-DEB3-4B12-9A87-913E3E6B448D",
-            "name": "Natural Sounds"
-          },
-          {
-            "id": "A155238F-0DD2-4610-9B87-05FCE1C59283",
-            "name": "River and Riparian"
-          },
-          {
-            "id": "9C9FCBB6-360B-4743-8155-6F9341CBE01B",
-            "name": "Scenic Views"
-          },
-          {
-            "id": "78E4F4AC-AF97-435A-8C2C-7FB8D67516ED",
-            "name": "Unique Species"
-          },
-          {
-            "id": "996BEDAE-CB23-4003-B008-3A1F46A72263",
-            "name": "Rare"
-          },
-          {
-            "id": "489D6333-FD72-44DF-83B0-3D4412DD0A75",
-            "name": "Endangered"
-          },
-          {
-            "id": "BA12B386-49EA-46B0-9121-FCACACC47538",
-            "name": "Watersheds"
-          },
-          {
-            "id": "5ED826E0-76BB-47BB-87DD-E081A72B0A04",
-            "name": "Waterfalls"
+            "id": "A7359FC4-DAD8-45F5-AF15-7FF62F816ED3",
+            "name": "Night Sky"
           }
         ],
-        "states": "AL",
+        "states": "KY",
         "contacts": {
           "phoneNumbers": [
             {
-              "phoneNumber": "2568459605",
+              "phoneNumber": "2703583137",
               "description": "",
-              "extension": "201",
+              "extension": "",
               "type": "Voice"
             },
             {
-              "phoneNumber": "2569979129",
+              "phoneNumber": "2703583874",
               "description": "",
               "extension": "",
               "type": "Fax"
@@ -691,116 +607,108 @@
           "emailAddresses": [
             {
               "description": "",
-              "emailAddress": "liri_information@nps.gov"
+              "emailAddress": "ABLI_Administration@nps.gov"
             }
           ]
         },
         "entranceFees": [
           {
-            "cost": "15.0000",
-            "description": "Located near Cedar Bluff, Alabama, the Canyon Mouth Park area features amenities including a paved parking lot, restrooms with sinks and flush toilets, picnic tables, grills, lots of shade, close to the water, and a brand new playground.\n\nFEES ARE CURRENTLY SUSPENDED\n\nA seven-day pass costs $15 and an annual pass costs $35 and is valid for the calendar year. \n\nA machine is available at the entrance to Canyon Mouth Park should no park personnel be present in the booth. The machine takes cash only.",
-            "title": "Canyon Mouth Park picnic area"
+            "cost": "0.0000",
+            "description": "There is no fee associated with visiting either unit of the park.",
+            "title": "Fee Free Park"
           }
         ],
-        "entrancePasses": [
-          {
-            "cost": "35.0000",
-            "description": "Give the user unlimited access during operating hours during a calendar year (January - December). Located near Cedar Bluff, Alabama. Instead of paying $15 per vehicle, purchase the pass for a year for $35. Amenities included paved parking lot, restrooms, picnic tables, grills, lots of shade, close to the water, and a playground. \n\nAmerica the Beautiful passes are also valid at Canyon Mouth Park and will allow access using the fee machine or when park staff are present at the booth.",
-            "title": "Canyon Mouth Annual Pass"
-          }
-        ],
-        "directionsInfo": "GPS Address: 472 AL Hwy 35, Fort Payne, AL 35967. Our address was updated by 911 and some GPS units will send you to an incorrect address. Please use this address for GPS units.",
-        "directionsUrl": "http://www.nps.gov/liri/planyourvisit/directions.htm",
+        "entrancePasses": [],
+        "directionsInfo": "The Birthplace Unit of the park is located approximately 2 miles south of the town of Hodgenville on U.S. Highway 31E South. The Boyhood Home Unit at Knob Creek is located approximately 10 miles northeast of the Birthplace Unit of the park.",
+        "directionsUrl": "http://www.nps.gov/abli/planyourvisit/directions.htm",
         "operatingHours": [
           {
-            "exceptions": [],
-            "description": "The main park is open during daylight hours every day including holidays.",
+            "exceptions": [
+              {
+                "exceptionHours": {},
+                "startDate": "2021-01-01",
+                "name": "Park is Closed",
+                "endDate": "2021-01-01"
+              },
+              {
+                "exceptionHours": {},
+                "startDate": "2020-11-26",
+                "name": "Park is Closed",
+                "endDate": "2020-11-26"
+              },
+              {
+                "exceptionHours": {},
+                "startDate": "2020-12-25",
+                "name": "Park is Closed",
+                "endDate": "2020-12-25"
+              }
+            ],
+            "description": "The Memorial Building is open 9:00 am - 4:30 pm eastern time with a limited viewing area.  The Visitor Center and grounds of the Birthplace Unit are open 9:00 am - 5:00 pm eastern time with one-way traffic flow and social distancing.\n\n\nThe Boyhood Home Unit at Knob Creek will be closed August 3, 2020, to July 31, 2021, due to the Lincoln Tavern Rehabilitation Project.",
             "standardHours": {
-              "Wednesday": "Sunrise to Sunset",
-              "Monday": "Sunrise to Sunset",
-              "Thursday": "Sunrise to Sunset",
-              "Sunday": "Sunrise to Sunset",
-              "Tuesday": "Sunrise to Sunset",
-              "Friday": "Sunrise to Sunset",
-              "Saturday": "Sunrise to Sunset"
+              "Wednesday": "9:00AM - 5:00PM",
+              "Monday": "9:00AM - 5:00PM",
+              "Thursday": "9:00AM - 5:00PM",
+              "Sunday": "9:00AM - 5:00PM",
+              "Tuesday": "9:00AM - 5:00PM",
+              "Friday": "9:00AM - 5:00PM",
+              "Saturday": "9:00AM - 5:00PM"
             },
-            "name": "Little River Canyon National Preserve"
-          },
-          {
-            "exceptions": [],
-            "description": "Summer Hours - Open Daily from 8:00 AM to 7:00 PM (CST)\nFall/Spring Hours - Open Daily from 8:00 AM to 6:00 PM (CST) - begins March 8, 2020 \nWinter Hours - Open Daily from 8:00 AM to 5:00 PM (CST)",
-            "standardHours": {
-              "Wednesday": "8:00AM - 6:00PM",
-              "Monday": "8:00AM - 6:00PM",
-              "Thursday": "8:00AM - 6:00PM",
-              "Sunday": "8:00AM - 6:00PM",
-              "Tuesday": "8:00AM - 6:00PM",
-              "Friday": "8:00AM - 6:00PM",
-              "Saturday": "8:00PM - 6:00PM"
-            },
-            "name": "Canyon Mouth Park"
+            "name": "Abraham Lincoln Birthplace National Historical Park"
           }
         ],
         "addresses": [
           {
-            "postalCode": "35967",
-            "city": "Fort Payne",
-            "stateCode": "AL",
-            "line1": "4322 Little River Trail NE",
+            "postalCode": "42748",
+            "city": "Hodgenville",
+            "stateCode": "KY",
+            "line1": "2995 Lincoln Farm Road",
             "type": "Physical",
             "line3": "",
-            "line2": "Suite 100"
+            "line2": ""
           },
           {
-            "postalCode": "35967",
-            "city": "Fort Payne",
-            "stateCode": "AL",
-            "line1": "4322 Little River Trail NE",
+            "postalCode": "42748",
+            "city": "Hodgenville",
+            "stateCode": "KY",
+            "line1": "2995 Lincoln Farm Road",
             "type": "Mailing",
             "line3": "",
-            "line2": "Suite 100"
+            "line2": ""
           }
         ],
         "images": [
           {
             "credit": "NPS Photo",
-            "title": "Little River Canyon in the Fall",
-            "altText": "Fall Season in the Canyon",
-            "caption": "Little River Canyon in the Fall",
-            "url": "https://www.nps.gov/common/uploads/structured_data/3C870F95-1DD8-B71B-0B1A89976F5B3292.jpg"
+            "title": "The Memorial Building with fall colors",
+            "altText": "The Memorial Building surrounded by fall colors",
+            "caption": "Over 200,000 people a year come to walk up the steps of the Memorial Building to visit the site where Abraham Lincoln was born",
+            "url": "https://www.nps.gov/common/uploads/structured_data/3C861078-1DD8-B71B-0B774A242EF6A706.jpg"
           },
           {
             "credit": "NPS Photo",
-            "title": "Little River Falls in the Spring",
-            "altText": "Little River Falls in the Spring, located on AL Hwy 35",
-            "caption": "Little River Falls in the Spring",
-            "url": "https://www.nps.gov/common/uploads/structured_data/3C871122-1DD8-B71B-0BA3CC6A7CFE8F33.jpg"
+            "title": "The Memorial Building",
+            "altText": "The first memorial erected to honor Abraham Lincoln",
+            "caption": "The Memorial Building constructed on the traditional site of the birth of Abraham Lincoln.",
+            "url": "https://www.nps.gov/common/uploads/structured_data/3C861263-1DD8-B71B-0B71EF9B95F9644F.jpg"
           },
           {
             "credit": "NPS Photo",
-            "title": "Little River Falls in the Fall",
-            "altText": "Little River Falls in the Fall, located on AL Hwy 35",
-            "caption": "Little River Falls in the Fall",
-            "url": "https://www.nps.gov/common/uploads/structured_data/3C871272-1DD8-B71B-0BAB8ECC34CDFAB1.jpg"
+            "title": "The Symbolic Birth Cabin of Abraham Lincoln",
+            "altText": "The symbolic birth cabin on the traditional site of the birth of Abraham Lincoln.",
+            "caption": "The symbolic birth cabin of Abraham Lincoln.",
+            "url": "https://www.nps.gov/common/uploads/structured_data/3C86137D-1DD8-B71B-0B978BACD7EBAEF1.jpg"
           },
           {
             "credit": "NPS Photo",
-            "title": "Scenic Drive (AL Hwy 176) in the Fall",
-            "altText": "Scenic Driver (AL Hwy 176) in the Fall",
-            "caption": "Scenic Drive (AL Hwy 176) in the Fall",
-            "url": "https://www.nps.gov/common/uploads/structured_data/3C8715EF-1DD8-B71B-0BB9222FFF98A466.jpg"
-          },
-          {
-            "credit": "NPS Photo",
-            "title": "DeSoto Scout Trail Bridge",
-            "altText": "DeSoto Scout Trail Bridge located in the Backcountry Area",
-            "caption": "Take a hike along the DeSoto Scout Trail",
-            "url": "https://www.nps.gov/common/uploads/structured_data/3C871B98-1DD8-B71B-0B9503B9A40341DA.jpg"
+            "title": "Statue of the Lincoln Family in the Visitor Center",
+            "altText": "Statue of the Lincoln family in the park's Visitor Center",
+            "caption": "Visitors to the park can view the statue of the Lincoln family.",
+            "url": "https://www.nps.gov/common/uploads/structured_data/3C8614D1-1DD8-B71B-0B1AF72CA452B051.jpg"
           }
         ],
-        "weatherInfo": "The weather in Fort Payne, Alabama is mild. The average temperature in the winter is in the 20's. The average summer temperature is in the high 80's. We receive about 55 inches of rain each year. Snowfall varies, but only lasts a few days per event.",
-        "name": "Little River Canyon",
-        "designation": "National Preserve"
+        "weatherInfo": "There are four distinct seasons in Central Kentucky. However, temperature and weather conditions can vary widely within those seasons. Spring and Fall are generally pleasant with frequent rain showers. Summer is usually hot and humid. Winter is moderately cold with mixed precipitation.",
+        "name": "Abraham Lincoln Birthplace",
+        "designation": "National Historical Park"
       },
       "eatery": {
         "businessName": "Buckhorn Exchange",
@@ -818,17 +726,17 @@
         }
       },
       "attraction": {
-        "id": 5,
-        "name": "Cabazon Dinosaurs",
-        "state": "CA",
-        "city": "Cabazon",
-        "description": "In the middle of nowhere, California, stand the Cabazon Dinosaurs. There are two dinosaurs, and they are glorious — not to mention highly photographed by tourists on their way to vacation in Palm Springs. These dinosaurs are also known for their appearance in Pee Wee’s Big Adventure. The long-necked dinosaur also houses stairs and a kitschy toy shop inside its body.",
+        "id": 6,
+        "name": "Largest Fork in the US",
+        "state": "CO",
+        "city": "Creede",
+        "description": "Creede, Colorado, is home to the largest fork in the United States. The enormous sculpture by Ted Yund is over 40 feet long and weights over 600 pounds, breaking the record of the previous world’s largest fork, which was in Springfield, Missouri.",
         "ameneties": {
-          "souvenirs": true,
+          "souvenirs": false,
           "restrooms": false
         }
       },
-      "date": 1600111114835,
+      "date": 1600183577120,
       "id": 14
     }
   ]
